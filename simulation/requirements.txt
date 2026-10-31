@@ -1,0 +1,4 @@
+# Mitsuba environment (installed with Python 3.13).
+mitsuba==3.9.1
+numpy==2.5.3
+matplotlib==3.11.2

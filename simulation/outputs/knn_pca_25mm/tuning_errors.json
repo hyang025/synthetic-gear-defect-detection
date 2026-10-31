@@ -1,0 +1,403 @@
+{
+  "gamma 0.5, PCA 5, K 3": {
+    "strict (0 healthy frames)": {
+      "threshold": 0.0016161229734647819,
+      "missed": [
+        {
+          "cavity": "d010_gear_2:G2_D2",
+          "kind": "top_edge",
+          "diameter_mm": 0.1,
+          "peak_over_threshold": 0.736,
+          "at_flank_switch": false,
+          "crossing_deg": 248.231
+        },
+        {
+          "cavity": "d010_gear_2:G2_D5",
+          "kind": "flank",
+          "diameter_mm": 0.1,
+          "peak_over_threshold": 0.753,
+          "at_flank_switch": false,
+          "crossing_deg": 32.239
+        },
+        {
+          "cavity": "d010_gear_3:G3_D3",
+          "kind": "top_edge",
+          "diameter_mm": 0.1,
+          "peak_over_threshold": 0.984,
+          "at_flank_switch": false,
+          "crossing_deg": 206.994
+        },
+        {
+          "cavity": "d010_gear_3:G3_D5",
+          "kind": "flank",
+          "diameter_mm": 0.1,
+          "peak_over_threshold": 0.986,
+          "at_flank_switch": true,
+          "crossing_deg": 60.496
+        },
+        {
+          "cavity": "rand_train_1:T1_D4",
+          "kind": "top_edge",
+          "diameter_mm": 0.1,
+          "peak_over_threshold": 0.747,
+          "at_flank_switch": false,
+          "crossing_deg": 104.31
+        },
+        {
+          "cavity": "rand_train_2:T2_D2",
+          "kind": "crown",
+          "diameter_mm": 0.13,
+          "peak_over_threshold": 0.971,
+          "at_flank_switch": false,
+          "crossing_deg": 236.688
+        },
+        {
+          "cavity": "rand_train_3:T3_D2",
+          "kind": "flank",
+          "diameter_mm": 0.135,
+          "peak_over_threshold": 0.954,
+          "at_flank_switch": false,
+          "crossing_deg": 237.897
+        },
+        {
+          "cavity": "rand_train_4:T4_D3",
+          "kind": "crown",
+          "diameter_mm": 0.125,
+          "peak_over_threshold": 0.915,
+          "at_flank_switch": false,
+          "crossing_deg": 185.143
+        },
+        {
+          "cavity": "rand_train_5:T5_D3",
+          "kind": "top_edge",
+          "diameter_mm": 0.115,
+          "peak_over_threshold": 0.858,
+          "at_flank_switch": false,
+          "crossing_deg": 196.759
+        }
+      ],
+      "healthy_frames_flagged": "0/988",
+      "healthy_teeth_flagged": "0/18",
+      "flagged_teeth": [],
+      "flagged_phase_deg": [],
+      "flagged_in_flank_phase": 0
+    },
+    "1% healthy frames": {
+      "threshold": 0.001141015845852381,
+      "missed": [],
+      "healthy_frames_flagged": "10/988",
+      "healthy_teeth_flagged": "7/18",
+      "flagged_teeth": [
+        1,
+        3,
+        6,
+        9,
+        15,
+        16,
+        17
+      ],
+      "flagged_phase_deg": [
+        2.84,
+        8.65,
+        9.08,
+        8.79,
+        2.3,
+        3.05,
+        2.28,
+        2.65,
+        4.74,
+        3.83
+      ],
+      "flagged_in_flank_phase": 8
+    },
+    "5% healthy frames": {
+      "threshold": 0.0009910447218494183,
+      "missed": [],
+      "healthy_frames_flagged": "50/988",
+      "healthy_teeth_flagged": "18/18",
+      "flagged_teeth": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "flagged_phase_deg": [
+        4.5,
+        2.09,
+        2.28,
+        2.65,
+        2.84,
+        8.65,
+        1.74,
+        2.12,
+        2.87,
+        4.18,
+        5.49,
+        8.3,
+        8.68,
+        1.96,
+        9.08,
+        9.11,
+        2.38,
+        8.79,
+        3.94,
+        4.31,
+        2.09,
+        2.28,
+        2.65,
+        4.15,
+        2.3,
+        3.05,
+        2.14,
+        4.58,
+        4.79,
+        2.01,
+        2.95,
+        4.45,
+        2.41,
+        4.12,
+        2.28,
+        2.65,
+        3.59,
+        1.74,
+        1.93,
+        2.12,
+        2.68,
+        2.87,
+        4.55,
+        4.74,
+        8.12,
+        1.96,
+        2.14,
+        3.83,
+        8.33,
+        8.52
+      ],
+      "flagged_in_flank_phase": 29
+    }
+  },
+  "gamma 0.5, PCA 20, K 3": {
+    "strict (0 healthy frames)": {
+      "threshold": 0.0026439244066358905,
+      "missed": [
+        {
+          "cavity": "d010_gear_2:G2_D2",
+          "kind": "top_edge",
+          "diameter_mm": 0.1,
+          "peak_over_threshold": 0.781,
+          "at_flank_switch": false,
+          "crossing_deg": 248.231
+        },
+        {
+          "cavity": "d010_gear_2:G2_D5",
+          "kind": "flank",
+          "diameter_mm": 0.1,
+          "peak_over_threshold": 0.774,
+          "at_flank_switch": false,
+          "crossing_deg": 32.239
+        },
+        {
+          "cavity": "d010_gear_3:G3_D3",
+          "kind": "top_edge",
+          "diameter_mm": 0.1,
+          "peak_over_threshold": 0.867,
+          "at_flank_switch": false,
+          "crossing_deg": 206.994
+        },
+        {
+          "cavity": "d010_gear_3:G3_D5",
+          "kind": "flank",
+          "diameter_mm": 0.1,
+          "peak_over_threshold": 0.917,
+          "at_flank_switch": true,
+          "crossing_deg": 60.496
+        },
+        {
+          "cavity": "rand_train_1:T1_D4",
+          "kind": "top_edge",
+          "diameter_mm": 0.1,
+          "peak_over_threshold": 0.97,
+          "at_flank_switch": false,
+          "crossing_deg": 104.31
+        },
+        {
+          "cavity": "rand_train_5:T5_D3",
+          "kind": "top_edge",
+          "diameter_mm": 0.115,
+          "peak_over_threshold": 0.907,
+          "at_flank_switch": false,
+          "crossing_deg": 196.759
+        }
+      ],
+      "healthy_frames_flagged": "0/988",
+      "healthy_teeth_flagged": "0/18",
+      "flagged_teeth": [],
+      "flagged_phase_deg": [],
+      "flagged_in_flank_phase": 0
+    },
+    "1% healthy frames": {
+      "threshold": 0.002361264542907327,
+      "missed": [
+        {
+          "cavity": "d010_gear_2:G2_D2",
+          "kind": "top_edge",
+          "diameter_mm": 0.1,
+          "peak_over_threshold": 0.875,
+          "at_flank_switch": false,
+          "crossing_deg": 248.231
+        },
+        {
+          "cavity": "d010_gear_2:G2_D5",
+          "kind": "flank",
+          "diameter_mm": 0.1,
+          "peak_over_threshold": 0.866,
+          "at_flank_switch": false,
+          "crossing_deg": 32.239
+        },
+        {
+          "cavity": "d010_gear_3:G3_D3",
+          "kind": "top_edge",
+          "diameter_mm": 0.1,
+          "peak_over_threshold": 0.971,
+          "at_flank_switch": false,
+          "crossing_deg": 206.994
+        }
+      ],
+      "healthy_frames_flagged": "10/988",
+      "healthy_teeth_flagged": "9/18",
+      "flagged_teeth": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        15,
+        16
+      ],
+      "flagged_phase_deg": [
+        2.84,
+        2.3,
+        9.08,
+        2.36,
+        2.76,
+        2.62,
+        3.56,
+        2.3,
+        2.65,
+        2.68
+      ],
+      "flagged_in_flank_phase": 9
+    },
+    "5% healthy frames": {
+      "threshold": 0.0021116637403319053,
+      "missed": [
+        {
+          "cavity": "d010_gear_2:G2_D2",
+          "kind": "top_edge",
+          "diameter_mm": 0.1,
+          "peak_over_threshold": 0.978,
+          "at_flank_switch": false,
+          "crossing_deg": 248.231
+        },
+        {
+          "cavity": "d010_gear_2:G2_D5",
+          "kind": "flank",
+          "diameter_mm": 0.1,
+          "peak_over_threshold": 0.969,
+          "at_flank_switch": false,
+          "crossing_deg": 32.239
+        }
+      ],
+      "healthy_frames_flagged": "50/988",
+      "healthy_teeth_flagged": "17/18",
+      "flagged_teeth": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17
+      ],
+      "flagged_phase_deg": [
+        2.62,
+        8.81,
+        2.09,
+        2.84,
+        8.65,
+        2.3,
+        2.49,
+        2.87,
+        3.05,
+        8.3,
+        8.68,
+        9.08,
+        2.36,
+        2.54,
+        8.54,
+        2.76,
+        2.95,
+        2.79,
+        8.79,
+        8.97,
+        2.62,
+        3.56,
+        9.0,
+        2.28,
+        2.46,
+        2.65,
+        3.03,
+        2.3,
+        2.14,
+        8.89,
+        2.92,
+        9.11,
+        2.57,
+        2.76,
+        2.62,
+        9.0,
+        9.19,
+        2.28,
+        2.65,
+        3.03,
+        3.78,
+        8.84,
+        2.12,
+        2.3,
+        2.49,
+        2.68,
+        8.68,
+        2.89,
+        8.33,
+        8.71
+      ],
+      "flagged_in_flank_phase": 37
+    }
+  }
+}

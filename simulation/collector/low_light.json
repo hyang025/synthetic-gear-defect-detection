@@ -1,0 +1,37 @@
+{
+  "output": "outputs/collector_low_light_25mm",
+  "peak_suppression_summary": "outputs/collector_peak_suppression_25mm/summary.json",
+  "display_block_size": 4,
+  "difference_block_size": 8,
+  "screen_extent_mm": [-75, 75, -75, 75],
+  "focal_length_mm": 50,
+  "reference_log_range": 3000,
+  "gamma": 0.25,
+  "asinh_dynamic_range": 10000,
+  "histogram_bins": 4096,
+  "histogram_floor_relative_to_peak": 0.000001,
+  "difference_asinh_dynamic_range": 100,
+  "outer_half_width_deg": 20,
+  "cases": [
+    {
+      "id": "thin_0p1", "diameter_mm": 0.1, "depth_um": 25, "angle_deg": 288,
+      "healthy": "outputs/collector_rotation_25mm/raw/frame_288.exr",
+      "damaged": "outputs/collector_damaged_rotation_25mm/raw/damaged/frame_288.exr"
+    },
+    {
+      "id": "old_0p1", "diameter_mm": 0.1, "depth_um": 100, "angle_deg": 308.57142857142856,
+      "healthy": "outputs/collector_three_dents_25mm/raw/healthy/frame_311.exr",
+      "damaged": "outputs/collector_three_dents_25mm/raw/damaged/frame_311.exr"
+    },
+    {
+      "id": "old_0p2", "diameter_mm": 0.2, "depth_um": 200, "angle_deg": 185.14285714285714,
+      "healthy": "outputs/collector_three_dents_25mm/raw/healthy/frame_187.exr",
+      "damaged": "outputs/collector_three_dents_25mm/raw/damaged/frame_187.exr"
+    },
+    {
+      "id": "old_0p3", "diameter_mm": 0.3, "depth_um": 300, "angle_deg": 61.71428571428572,
+      "healthy": "outputs/collector_three_dents_25mm/raw/healthy/frame_062.exr",
+      "damaged": "outputs/collector_three_dents_25mm/raw/damaged/frame_062.exr"
+    }
+  ]
+}

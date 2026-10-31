@@ -1,0 +1,9 @@
+Part,Quantity,Estimated PLA g,Estimated filament cost USD,Infill percent,Support,Print orientation
+motor_holder_r06,1,57.9,1.16,40,Local support at four M4 washer lands in the foot driver chambers,Top deck on bed; feet and underside housing seat upward
+motor_slide_base_r06,1,52.3,1.05,40,None intended; inspect slicer preview,Countersinks toward bed; captive nut channels upward
+encoder_holder_r06,1,78.5,1.57,40,Local support at four M4 washer lands in the foot driver chambers,Top deck on bed; feet and underside housing seat upward
+encoder_slide_base_r06,1,39.7,0.79,40,None intended; inspect slicer preview,Countersinks toward bed; captive nut channels upward
+gear_adapter_sleeve_r06,1,2.5,0.05,100,None intended; inspect slicer preview,Support flange on bed; keyed sleeve upward
+gear_adapter_clamp_cap_r06,1,4.0,0.08,100,Support as needed in horizontal M3 passage and nut-pocket ceiling; remove fully before fastening,Flat annular face on bed; shaft opening vertical
+shaft_frame_body_r06,1,108.7,2.17,40,Support beneath the lower bearing deck and overhanging seats; local support in horizontal M4 bores. Remove through the open X sides before fitting bearings.,Both integrated feet on bed; lower bearing deck horizontal
+shaft_upper_bearing_bridge_r06,1,42.1,0.84,40,Local support as needed in four horizontal M4 joining bores; keep locator recesses and bearing faces clean.,Broad top deck on bed; edge flanges and locator recesses upward

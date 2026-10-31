@@ -1,0 +1,23 @@
+{
+  "source_run": "outputs/patchcore_prototype_25mm",
+  "output": "outputs/sequence_0p1875_25mm",
+  "frames_per_revolution": 1920,
+  "spacing_note": "0.1875 deg = 5 quadrature counts of a 600 PPR encoder at motor speed through the 4:1 belt",
+  "window_half_width_deg": 1.5,
+  "healthy_mesh": "gear/model/damage_test/healthy_control.obj",
+  "healthy_cases": [
+    {"case": "healthy_a", "role": "train_background", "seed_offset": 40000000},
+    {"case": "healthy_b", "role": "eval_background", "seed_offset": 41000000}
+  ],
+  "damaged_sets": [
+    {"prefix": "rand", "model_output": "gear/model/classifier_training",
+     "roles": {"train_1": "train", "train_2": "train", "train_3": "train", "train_4": "train", "train_5": "train", "train_6": "train"}},
+    {"prefix": "d010", "model_output": "gear/model/patchcore_hemisphere_0p1",
+     "roles": {"gear_2": "train", "gear_3": "train", "validation_gear": "validation", "gear_1": "test"}},
+    {"prefix": "d010", "model_output": "gear/model/patchcore_clahe_additional",
+     "roles": {"gear_4": "test", "gear_5": "test"}},
+    {"prefix": "d020", "model_output": "gear/model/patchcore_hemisphere_0p2",
+     "roles": {"gear_1": "test", "gear_4": "test", "gear_5": "test"}}
+  ],
+  "damaged_seed_offset_start": 42000000
+}

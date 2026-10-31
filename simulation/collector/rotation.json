@@ -1,0 +1,38 @@
+{
+  "variant": "cuda_ad_rgb",
+  "scene_units": "meters",
+  "stage": "finite aperture with ideal angular mapping",
+  "mesh": "../gear/model/damage_test/healthy_control.obj",
+  "gear_parameters": "../gear/model_parameters.json",
+  "alignment_config": "../healthy/full_revolution.json",
+  "wavelength_nm": 650,
+  "rotation": {"start_deg": 0, "stop_deg": 360, "step_deg": 1},
+  "laser": {
+    "distance_mm": 300,
+    "incidence_deg": 30,
+    "line_length_mm": 6.7,
+    "line_width_fwhm_mm": 0.1,
+    "profile": "Uniform length and Gaussian width on the nominal crown tangent plane",
+    "total_power_relative": 1
+  },
+  "collector": {"diameter_mm": 50, "distance_mm": 25, "focal_length_mm": 50, "transmission": 1},
+  "screen": {"width_mm": 150, "height_mm": 150, "width_px": 512, "height_px": 512},
+  "material": {
+    "distribution": "ggx", "alpha": 0.05, "reflectance": 0.55,
+    "machining_marks": true,
+    "optical_model": "Assumed ideal-conductor proxy with constant reflectance",
+    "surface_detail": "Existing object-space machining-mark bump field"
+  },
+  "sampling": {
+    "batches": 16, "rays_per_batch": 262144,
+    "seed": 650253600,
+    "max_surface_bounces": 8, "ray_offset_m": 1e-8,
+    "central_proposal_fraction": 0, "central_proposal_length_mm": 0.15
+  },
+  "analysis": {"angle_half_range_deg": 60, "angle_bins": 600},
+  "animation": {
+    "fps": 25, "width_px": 1200, "height_px": 600,
+    "filename": "collector_rotation.mp4",
+    "playback": "14.4 seconds per revolution; static encoder-angle exposures"
+  }
+}

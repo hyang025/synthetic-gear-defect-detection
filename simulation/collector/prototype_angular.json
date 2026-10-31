@@ -1,0 +1,8 @@
+{
+  "run": "outputs/patchcore_prototype_25mm",
+  "axis": "v",
+  "smoothing_kernel": [0.25, 0.50, 0.25],
+  "weight_cap": 20.0,
+  "reference_case": "healthy_train",
+  "healthy_comparison_cases": ["healthy_calibration", "healthy_test"]
+}

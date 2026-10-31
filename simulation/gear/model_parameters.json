@@ -1,0 +1,71 @@
+{
+  "units": "mm",
+  "part": "Large gear only",
+  "revision": "gear5_mid_tooth_top_0p7mm",
+  "supplied": {
+    "outside_diameter": 44.0,
+    "total_thickness": 13.0,
+    "tooth_count": 35,
+    "bore_diameter": 11.0,
+    "keyway_width": 2.5
+  },
+  "measured": {
+    "tooth_top_width_mm": 0.7,
+    "radial_fraction": 0.5,
+    "direction": "Across the narrow top, perpendicular to the curved tooth length on the top surface",
+    "precision": "Rough user measurement; 0.7 mm is a nominal target, not a metrology tolerance"
+  },
+  "estimated": {
+    "rear_hub_diameter": 21.0,
+    "rear_hub_projection": 6.0,
+    "tooth_inner_radius": 15.5,
+    "outer_root_height": 8.4,
+    "tooth_height": 2.1,
+    "tooth_sweep_degrees": -12.0,
+    "tooth_root_pitch_fraction": 0.72,
+    "front_hole_count": 4,
+    "front_hole_pitch_circle_diameter": 25.0,
+    "front_hole_diameter": 5.0,
+    "front_hole_entry_diameter": 6.0,
+    "front_hole_depth": 3.5,
+    "front_hole_entry_depth": 0.5,
+    "keyway_radial_depth": 1.3,
+    "bore_edge_chamfer": 0.25,
+    "hub_edge_chamfer": 0.3,
+    "hub_root_chamfer": 0.4,
+    "rim_back_chamfer": 0.3
+  },
+  "sources": {
+    "supplied_dimensions": "dimensions",
+    "front_shape": "gear3.jpg",
+    "rear_shape": "gear2.jpg",
+    "additional_reference": "gear1.jpg",
+    "tooth_side_profile": "gear5.jpg",
+    "machining_marks": "gear4 .png"
+  },
+  "surface_detail": {
+    "method": "Mitsuba procedural bump map",
+    "reference_caliper_gap_mm": 0.5,
+    "estimated_mark_spacing_mm": 0.1,
+    "assumed_bump_amplitude_mm": 0.001,
+    "assumed_spacing_jitter_mm": 0.006,
+    "assumed_jitter_length_mm": 0.7,
+    "assumed_cross_tooth_phase_variation": 0.6,
+    "assumed_flank_strength_fraction": 0.2,
+    "placement": "Across tooth tops, fading toward the roots; reduced strength on the flanks.",
+    "spacing_basis": "Rough visual comparison with the supplied 0.5 mm caliper gap. Perspective, focus, and differing surface planes prevent precise calibration.",
+    "amplitude_basis": "Appearance assumption only. The photograph does not measure groove depth.",
+    "geometry_effect": "Shading normals only. The CAD, STEP, and OBJ vertex positions remain unchanged."
+  },
+  "notes": [
+    "Supplied values are product-listing dimensions, not independently measured values.",
+    "The user measured the narrow tooth top at its midpoint as roughly 0.7 mm, perpendicular to the curved tooth length. The crown width is fitted to that measurement.",
+    "Gear5 provides the additional side view. Tooth height, root width, and sweep remain estimates; this photograph does not supply independent numerical values for them.",
+    "The tooth flanks are an estimated curved loft, not a generated conjugate or manufacturing tooth profile.",
+    "Four front holes are represented as smooth blind holes with chamfered entries. Thread form and depth are not specified by the source.",
+    "Mesh and CAD coordinates are in millimeters. Scale by 0.001 when importing into a scene using meters.",
+    "This model represents the undamaged large gear. No defects or laser inspection experiment are included.",
+    "Machining marks require the rendering material in machining_marks.py; they are not embedded in the CAD or OBJ geometry.",
+    "Bump mapping approximates changes in local reflection directions. It does not reproduce groove silhouettes, geometric self-occlusion, or coherent wave effects."
+  ]
+}

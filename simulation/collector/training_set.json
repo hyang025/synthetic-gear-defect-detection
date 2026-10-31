@@ -1,0 +1,341 @@
+{
+  "source_run": "outputs/patchcore_prototype_25mm",
+  "output": "outputs/classifier_training_25mm",
+  "model_output": "gear/model/classifier_training",
+  "cad_source": "gear/model/large_gear.FCStd",
+  "geometry_title": "Six training gears · spherical cuts · Ø0.10–0.20 mm · depth = radius",
+  "rotation_step_deg": 1,
+  "defect_sample_offsets_deg": [
+    -0.4,
+    -0.2,
+    0,
+    0.2,
+    0.4
+  ],
+  "seed_offsets": {
+    "train_1": 21000000,
+    "train_2": 22000000,
+    "train_3": 23000000,
+    "train_4": 24000000,
+    "train_5": 25000000,
+    "train_6": 26000000
+  },
+  "cavity_geometry": "Sphere radius equal to depth, centered on the CAD surface or tooth-top edge",
+  "sampling": {
+    "generator": "collector/training_set_generate.py",
+    "seed": 20261030,
+    "diameter_mm": "uniform 0.10–0.20, rounded to 0.005",
+    "depth": "diameter / 2",
+    "radial_fraction": "uniform 0.36–0.65",
+    "kinds_per_gear": "3 top edge, 1 crown, 1 flank, shuffled",
+    "tooth_spacing": "7 teeth with ±1 jitter from a random start"
+  },
+  "gears": [
+    {
+      "id": "train_1",
+      "role": "train",
+      "defects": [
+        {
+          "id": "T1_D1",
+          "tooth": 4,
+          "radial_fraction": 0.43,
+          "kind": "top_edge",
+          "side": 1,
+          "diameter_mm": 0.145,
+          "depth_mm": 0.0725
+        },
+        {
+          "id": "T1_D2",
+          "tooth": 13,
+          "radial_fraction": 0.41,
+          "kind": "flank",
+          "side": -1,
+          "diameter_mm": 0.19,
+          "depth_mm": 0.095
+        },
+        {
+          "id": "T1_D3",
+          "tooth": 19,
+          "radial_fraction": 0.39,
+          "kind": "top_edge",
+          "side": 1,
+          "diameter_mm": 0.135,
+          "depth_mm": 0.0675
+        },
+        {
+          "id": "T1_D4",
+          "tooth": 25,
+          "radial_fraction": 0.42,
+          "kind": "top_edge",
+          "side": -1,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05
+        },
+        {
+          "id": "T1_D5",
+          "tooth": 34,
+          "radial_fraction": 0.58,
+          "kind": "crown",
+          "side": 0,
+          "diameter_mm": 0.14,
+          "depth_mm": 0.07
+        }
+      ]
+    },
+    {
+      "id": "train_2",
+      "role": "train",
+      "defects": [
+        {
+          "id": "T2_D1",
+          "tooth": 5,
+          "radial_fraction": 0.51,
+          "kind": "top_edge",
+          "side": -1,
+          "diameter_mm": 0.19,
+          "depth_mm": 0.095
+        },
+        {
+          "id": "T2_D2",
+          "tooth": 12,
+          "radial_fraction": 0.44,
+          "kind": "crown",
+          "side": 0,
+          "diameter_mm": 0.13,
+          "depth_mm": 0.065
+        },
+        {
+          "id": "T2_D3",
+          "tooth": 18,
+          "radial_fraction": 0.51,
+          "kind": "top_edge",
+          "side": 1,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05
+        },
+        {
+          "id": "T2_D4",
+          "tooth": 25,
+          "radial_fraction": 0.47,
+          "kind": "top_edge",
+          "side": 1,
+          "diameter_mm": 0.195,
+          "depth_mm": 0.0975
+        },
+        {
+          "id": "T2_D5",
+          "tooth": 33,
+          "radial_fraction": 0.37,
+          "kind": "flank",
+          "side": -1,
+          "diameter_mm": 0.175,
+          "depth_mm": 0.0875
+        }
+      ]
+    },
+    {
+      "id": "train_3",
+      "role": "train",
+      "defects": [
+        {
+          "id": "T3_D1",
+          "tooth": 5,
+          "radial_fraction": 0.55,
+          "kind": "crown",
+          "side": 0,
+          "diameter_mm": 0.12,
+          "depth_mm": 0.06
+        },
+        {
+          "id": "T3_D2",
+          "tooth": 12,
+          "radial_fraction": 0.6,
+          "kind": "flank",
+          "side": -1,
+          "diameter_mm": 0.135,
+          "depth_mm": 0.0675
+        },
+        {
+          "id": "T3_D3",
+          "tooth": 18,
+          "radial_fraction": 0.51,
+          "kind": "top_edge",
+          "side": 1,
+          "diameter_mm": 0.105,
+          "depth_mm": 0.0525
+        },
+        {
+          "id": "T3_D4",
+          "tooth": 26,
+          "radial_fraction": 0.62,
+          "kind": "top_edge",
+          "side": 1,
+          "diameter_mm": 0.195,
+          "depth_mm": 0.0975
+        },
+        {
+          "id": "T3_D5",
+          "tooth": 33,
+          "radial_fraction": 0.52,
+          "kind": "top_edge",
+          "side": -1,
+          "diameter_mm": 0.16,
+          "depth_mm": 0.08
+        }
+      ]
+    },
+    {
+      "id": "train_4",
+      "role": "train",
+      "defects": [
+        {
+          "id": "T4_D1",
+          "tooth": 4,
+          "radial_fraction": 0.53,
+          "kind": "flank",
+          "side": 1,
+          "diameter_mm": 0.165,
+          "depth_mm": 0.0825
+        },
+        {
+          "id": "T4_D2",
+          "tooth": 11,
+          "radial_fraction": 0.41,
+          "kind": "top_edge",
+          "side": 1,
+          "diameter_mm": 0.105,
+          "depth_mm": 0.0525
+        },
+        {
+          "id": "T4_D3",
+          "tooth": 17,
+          "radial_fraction": 0.55,
+          "kind": "crown",
+          "side": 0,
+          "diameter_mm": 0.125,
+          "depth_mm": 0.0625
+        },
+        {
+          "id": "T4_D4",
+          "tooth": 25,
+          "radial_fraction": 0.39,
+          "kind": "top_edge",
+          "side": -1,
+          "diameter_mm": 0.155,
+          "depth_mm": 0.0775
+        },
+        {
+          "id": "T4_D5",
+          "tooth": 32,
+          "radial_fraction": 0.4,
+          "kind": "top_edge",
+          "side": -1,
+          "diameter_mm": 0.145,
+          "depth_mm": 0.0725
+        }
+      ]
+    },
+    {
+      "id": "train_5",
+      "role": "train",
+      "defects": [
+        {
+          "id": "T5_D1",
+          "tooth": 4,
+          "radial_fraction": 0.54,
+          "kind": "top_edge",
+          "side": -1,
+          "diameter_mm": 0.165,
+          "depth_mm": 0.0825
+        },
+        {
+          "id": "T5_D2",
+          "tooth": 9,
+          "radial_fraction": 0.4,
+          "kind": "top_edge",
+          "side": 1,
+          "diameter_mm": 0.165,
+          "depth_mm": 0.0825
+        },
+        {
+          "id": "T5_D3",
+          "tooth": 16,
+          "radial_fraction": 0.47,
+          "kind": "top_edge",
+          "side": -1,
+          "diameter_mm": 0.115,
+          "depth_mm": 0.0575
+        },
+        {
+          "id": "T5_D4",
+          "tooth": 23,
+          "radial_fraction": 0.6,
+          "kind": "flank",
+          "side": -1,
+          "diameter_mm": 0.16,
+          "depth_mm": 0.08
+        },
+        {
+          "id": "T5_D5",
+          "tooth": 30,
+          "radial_fraction": 0.62,
+          "kind": "crown",
+          "side": 0,
+          "diameter_mm": 0.18,
+          "depth_mm": 0.09
+        }
+      ]
+    },
+    {
+      "id": "train_6",
+      "role": "train",
+      "defects": [
+        {
+          "id": "T6_D1",
+          "tooth": 4,
+          "radial_fraction": 0.47,
+          "kind": "top_edge",
+          "side": -1,
+          "diameter_mm": 0.165,
+          "depth_mm": 0.0825
+        },
+        {
+          "id": "T6_D2",
+          "tooth": 11,
+          "radial_fraction": 0.65,
+          "kind": "top_edge",
+          "side": -1,
+          "diameter_mm": 0.16,
+          "depth_mm": 0.08
+        },
+        {
+          "id": "T6_D3",
+          "tooth": 16,
+          "radial_fraction": 0.42,
+          "kind": "top_edge",
+          "side": -1,
+          "diameter_mm": 0.19,
+          "depth_mm": 0.095
+        },
+        {
+          "id": "T6_D4",
+          "tooth": 25,
+          "radial_fraction": 0.4,
+          "kind": "flank",
+          "side": -1,
+          "diameter_mm": 0.19,
+          "depth_mm": 0.095
+        },
+        {
+          "id": "T6_D5",
+          "tooth": 30,
+          "radial_fraction": 0.54,
+          "kind": "crown",
+          "side": 0,
+          "diameter_mm": 0.195,
+          "depth_mm": 0.0975
+        }
+      ]
+    }
+  ]
+}

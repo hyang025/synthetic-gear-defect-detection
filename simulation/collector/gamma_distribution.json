@@ -1,0 +1,12 @@
+{
+  "output": "outputs/collector_gamma_distribution_25mm",
+  "display_config": "outputs/collector_low_light_25mm/config.json",
+  "display_mapping": "outputs/collector_low_light_25mm/display_mapping.npz",
+  "gamma": 0.25,
+  "outer_half_width_deg": 20,
+  "profile_axis": "v",
+  "profile_rule": "Apply gamma to each 4-by-4 power bin before summing across u",
+  "recovery_rule": "Invert each floating-point gamma bin before computing angular profiles",
+  "precision": "float64",
+  "mask_rule": "Use the saved healthy angular boundaries and the existing display-bin center rule"
+}

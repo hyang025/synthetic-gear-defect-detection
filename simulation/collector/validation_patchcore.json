@@ -1,0 +1,25 @@
+{
+  "source_run": "outputs/patchcore_prototype_25mm",
+  "output": "outputs/patchcore_damage_validation_25mm",
+  "model_output": "gear/model/patchcore_validation",
+  "cad_source": "gear/model/large_gear.FCStd",
+  "trace_config": "collector/rotation.json",
+  "rotation_step_deg": 1,
+  "defect_sample_offsets_deg": [-0.4, -0.2, 0, 0.2, 0.4],
+  "validation_seed_offset": 6000000,
+  "threshold_policy": {
+    "objective": "maximize validation image F1",
+    "implementation": "anomalib.metrics.F1AdaptiveThreshold",
+    "positive_frames": "Predeclared validation-defect passage windows",
+    "negative_frames": "Original healthy_calibration split"
+  },
+  "gears": [
+    {"id": "validation_gear", "defects": [
+      {"id": "V_D1", "tooth": 5, "radial_fraction": 0.40, "kind": "top_edge", "side": -1, "diameter_mm": 0.05, "depth_mm": 0.025},
+      {"id": "V_D2", "tooth": 12, "radial_fraction": 0.55, "kind": "top_edge", "side": 1, "diameter_mm": 0.10, "depth_mm": 0.050},
+      {"id": "V_D3", "tooth": 19, "radial_fraction": 0.45, "kind": "top_edge", "side": -1, "diameter_mm": 0.20, "depth_mm": 0.025},
+      {"id": "V_D4", "tooth": 26, "radial_fraction": 0.60, "kind": "crown", "side": 0, "diameter_mm": 0.15, "depth_mm": 0.050},
+      {"id": "V_D5", "tooth": 33, "radial_fraction": 0.50, "kind": "flank", "side": 1, "diameter_mm": 0.30, "depth_mm": 0.100}
+    ]}
+  ]
+}

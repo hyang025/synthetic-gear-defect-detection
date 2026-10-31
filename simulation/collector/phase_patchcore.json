@@ -1,0 +1,10 @@
+{
+  "source_run": "outputs/patchcore_prototype_25mm",
+  "output": "outputs/patchcore_phase6_25mm",
+  "gear_parameters": "gear/model_parameters.json",
+  "bank_count": 6,
+  "phase_origin_deg": 0.0,
+  "training_overlap_deg": 0.2,
+  "settings_source": "source_run/config.json:patchcore",
+  "threshold_selection": "99th percentile of healthy_calibration scores within each dispatched bank"
+}

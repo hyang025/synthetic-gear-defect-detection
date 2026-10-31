@@ -1,0 +1,52 @@
+{
+  "mesh": "../gear/model/large_gear.obj",
+  "gear_parameters": "../gear/model_parameters.json",
+  "variant": "cuda_ad_rgb",
+  "scene_units": "meters",
+  "inspection": {
+    "tooth_index": 0,
+    "radial_fraction": 0.55,
+    "surface": "tooth crown",
+    "gear_angles_deg": [-2.0, -1.5, -1.0, -0.5, 0.0, 0.5, 1.0, 1.5, 2.0]
+  },
+  "camera": {
+    "physical_focal_length_mm": 12.0,
+    "f_number": 2.2,
+    "patch_to_pupil_mm": 25.0,
+    "sensor_width_mm": 3.84,
+    "sensor_height_mm": 2.4,
+    "width_px": 1280,
+    "height_px": 800,
+    "focus_distance_m": 100.0
+  },
+  "laser": {
+    "distance_mm": 300.0,
+    "incidence_deg": 30.0,
+    "surface_width_fwhm_mm": 0.5,
+    "surface_length_mm": 2.0,
+    "end_transition_mm": 0.1,
+    "projection_field_mm": 4.0,
+    "texture_resolution": 512,
+    "projector_scale": 1.0,
+    "rgb": [1.0, 0.0, 0.0]
+  },
+  "material": {
+    "distribution": "ggx",
+    "alpha": 0.05,
+    "reflectance": 0.55,
+    "machining_marks": true
+  },
+  "render": {
+    "samples_per_pixel": 256,
+    "samples_per_pass": 8,
+    "seed": 20260928,
+    "max_depth": 4
+  },
+  "analysis": {
+    "profile_axis": "image columns; sum over rows",
+    "signal_channel": "linear red",
+    "minimum_relative_energy": 0.01,
+    "border_pixels": 8,
+    "border_fraction_warning": 0.01
+  }
+}

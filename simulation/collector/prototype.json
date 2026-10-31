@@ -1,0 +1,36 @@
+{
+  "output": "outputs/patchcore_prototype_25mm",
+  "model_output": "gear/model/patchcore_prototype",
+  "cad_source": "gear/model/large_gear.FCStd",
+  "healthy_mesh": "gear/model/damage_test/healthy_control.obj",
+  "healthy_reference": "outputs/collector_rotation_25mm",
+  "trace_config": "collector/rotation.json",
+  "rotation_step_deg": 1,
+  "defect_sample_offsets_deg": [-0.4, -0.2, 0, 0.2, 0.4],
+  "seed_offsets": {"healthy_train": 0, "healthy_calibration": 1000000, "healthy_test": 2000000, "gear_1": 3000000, "gear_2": 4000000, "gear_3": 5000000},
+  "display": {"block_size": 4, "histogram_bins": 4096, "histogram_floor_relative_to_peak": 0.000001},
+  "patchcore": {"backbone": "wide_resnet50_2", "layers": ["layer2", "layer3"], "image_size": 128, "batch_size": 8, "coreset_ratio": 0.01, "num_neighbors": 9, "seed": 42, "healthy_threshold_quantile": 0.99},
+  "gears": [
+    {"id": "gear_1", "defects": [
+      {"id": "G1_D1", "tooth": 3, "radial_fraction": 0.40, "kind": "top_edge", "side": -1, "diameter_mm": 0.05, "depth_mm": 0.025},
+      {"id": "G1_D2", "tooth": 10, "radial_fraction": 0.50, "kind": "top_edge", "side": -1, "diameter_mm": 0.10, "depth_mm": 0.025},
+      {"id": "G1_D3", "tooth": 17, "radial_fraction": 0.60, "kind": "top_edge", "side": -1, "diameter_mm": 0.20, "depth_mm": 0.050},
+      {"id": "G1_D4", "tooth": 24, "radial_fraction": 0.45, "kind": "crown", "side": 0, "diameter_mm": 0.15, "depth_mm": 0.050},
+      {"id": "G1_D5", "tooth": 31, "radial_fraction": 0.55, "kind": "flank", "side": 1, "diameter_mm": 0.30, "depth_mm": 0.100}
+    ]},
+    {"id": "gear_2", "defects": [
+      {"id": "G2_D1", "tooth": 4, "radial_fraction": 0.35, "kind": "top_edge", "side": 1, "diameter_mm": 0.10, "depth_mm": 0.050},
+      {"id": "G2_D2", "tooth": 11, "radial_fraction": 0.45, "kind": "top_edge", "side": -1, "diameter_mm": 0.20, "depth_mm": 0.025},
+      {"id": "G2_D3", "tooth": 18, "radial_fraction": 0.55, "kind": "top_edge", "side": 1, "diameter_mm": 0.30, "depth_mm": 0.075},
+      {"id": "G2_D4", "tooth": 25, "radial_fraction": 0.65, "kind": "crown", "side": 0, "diameter_mm": 0.05, "depth_mm": 0.025},
+      {"id": "G2_D5", "tooth": 32, "radial_fraction": 0.50, "kind": "flank", "side": -1, "diameter_mm": 0.15, "depth_mm": 0.050}
+    ]},
+    {"id": "gear_3", "defects": [
+      {"id": "G3_D1", "tooth": 1, "radial_fraction": 0.60, "kind": "top_edge", "side": -1, "diameter_mm": 0.15, "depth_mm": 0.025},
+      {"id": "G3_D2", "tooth": 8, "radial_fraction": 0.40, "kind": "top_edge", "side": 1, "diameter_mm": 0.25, "depth_mm": 0.100},
+      {"id": "G3_D3", "tooth": 15, "radial_fraction": 0.50, "kind": "top_edge", "side": -1, "diameter_mm": 0.05, "depth_mm": 0.025},
+      {"id": "G3_D4", "tooth": 22, "radial_fraction": 0.55, "kind": "crown", "side": 0, "diameter_mm": 0.30, "depth_mm": 0.050},
+      {"id": "G3_D5", "tooth": 29, "radial_fraction": 0.45, "kind": "flank", "side": 1, "diameter_mm": 0.20, "depth_mm": 0.075}
+    ]}
+  ]
+}

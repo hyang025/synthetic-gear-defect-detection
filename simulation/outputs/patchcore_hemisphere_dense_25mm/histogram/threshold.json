@@ -1,0 +1,43 @@
+{
+  "threshold": 20.502267837524414,
+  "implementation": "anomalib.metrics.F1AdaptiveThreshold",
+  "policy": {
+    "objective": "maximize validation image F1",
+    "implementation": "anomalib.metrics.F1AdaptiveThreshold",
+    "positive_frames": "Passage frames for V_D1 through V_D4",
+    "negative_frames": "Preserved healthy calibration split with matched preprocessing",
+    "false_alarm_cap": null
+  },
+  "comparison": "score > threshold",
+  "validation": {
+    "positive_passage_frames": 23,
+    "healthy_frames": 440,
+    "tp_frames": 4,
+    "fn_frames": 19,
+    "fp_frames": 43,
+    "tn_frames": 397,
+    "precision": 0.0851063829787234,
+    "recall": 0.17391304347826086,
+    "f1": 0.11428571428571428,
+    "healthy_false_positive_rate_percent": 9.772727272727273,
+    "excluded_validation_gear_frames": 362,
+    "excluded_defect_ids": [
+      "V_D5"
+    ],
+    "excluded_defect_passage_frames": 6
+  },
+  "selection_curve_inclusive": {
+    "positive_passage_frames": 23,
+    "healthy_frames": 440,
+    "tp_frames": 5,
+    "fn_frames": 18,
+    "fp_frames": 43,
+    "tn_frames": 397,
+    "precision": 0.10416666666666667,
+    "recall": 0.21739130434782608,
+    "f1": 0.14084507042253522,
+    "healthy_false_positive_rate_percent": 9.772727272727273
+  },
+  "healthy_percentile_threshold": 21.838897190093995,
+  "frozen_before_test_evaluation": true
+}

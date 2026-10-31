@@ -1,0 +1,282 @@
+{
+  "setting": {
+    "gamma": 0.5,
+    "pca_size": 5,
+    "k": 3,
+    "vector_mean": 2
+  },
+  "cutoff": 0.0009474583515717513,
+  "test": {
+    "TP": 26,
+    "FN": 4,
+    "FP": 3,
+    "TN": 14,
+    "accuracy": 0.851,
+    "detection_rate": 0.867,
+    "false_alarms_per_tooth": 0.176,
+    "precision": 0.897,
+    "F1": 0.881,
+    "missed": [
+      "d010_gear_1:G1_D2",
+      "d010_gear_1:G1_D5",
+      "d010_gear_5:G5_D1",
+      "d010_gear_5:G5_D5"
+    ],
+    "flagged_teeth": [
+      18,
+      31,
+      34
+    ],
+    "cavities": {
+      "d010_gear_1:G1_D1": {
+        "kind": "top_edge",
+        "diameter_mm": 0.1,
+        "score_over_cutoff": 1.811,
+        "caught": true
+      },
+      "d010_gear_1:G1_D2": {
+        "kind": "top_edge",
+        "diameter_mm": 0.1,
+        "score_over_cutoff": 0.884,
+        "caught": false
+      },
+      "d010_gear_1:G1_D3": {
+        "kind": "top_edge",
+        "diameter_mm": 0.1,
+        "score_over_cutoff": 1.225,
+        "caught": true
+      },
+      "d010_gear_1:G1_D4": {
+        "kind": "crown",
+        "diameter_mm": 0.1,
+        "score_over_cutoff": 1.909,
+        "caught": true
+      },
+      "d010_gear_1:G1_D5": {
+        "kind": "flank",
+        "diameter_mm": 0.1,
+        "score_over_cutoff": 0.921,
+        "caught": false
+      },
+      "d010_gear_4:G4_D1": {
+        "kind": "top_edge",
+        "diameter_mm": 0.1,
+        "score_over_cutoff": 2.956,
+        "caught": true
+      },
+      "d010_gear_4:G4_D2": {
+        "kind": "top_edge",
+        "diameter_mm": 0.1,
+        "score_over_cutoff": 1.11,
+        "caught": true
+      },
+      "d010_gear_4:G4_D3": {
+        "kind": "top_edge",
+        "diameter_mm": 0.1,
+        "score_over_cutoff": 5.343,
+        "caught": true
+      },
+      "d010_gear_4:G4_D4": {
+        "kind": "crown",
+        "diameter_mm": 0.1,
+        "score_over_cutoff": 2.145,
+        "caught": true
+      },
+      "d010_gear_4:G4_D5": {
+        "kind": "flank",
+        "diameter_mm": 0.1,
+        "score_over_cutoff": 1.299,
+        "caught": true
+      },
+      "d010_gear_5:G5_D1": {
+        "kind": "top_edge",
+        "diameter_mm": 0.1,
+        "score_over_cutoff": 0.868,
+        "caught": false
+      },
+      "d010_gear_5:G5_D2": {
+        "kind": "top_edge",
+        "diameter_mm": 0.1,
+        "score_over_cutoff": 4.977,
+        "caught": true
+      },
+      "d010_gear_5:G5_D3": {
+        "kind": "top_edge",
+        "diameter_mm": 0.1,
+        "score_over_cutoff": 1.253,
+        "caught": true
+      },
+      "d010_gear_5:G5_D4": {
+        "kind": "crown",
+        "diameter_mm": 0.1,
+        "score_over_cutoff": 1.547,
+        "caught": true
+      },
+      "d010_gear_5:G5_D5": {
+        "kind": "flank",
+        "diameter_mm": 0.1,
+        "score_over_cutoff": 0.704,
+        "caught": false
+      },
+      "d020_gear_1:G1_D1": {
+        "kind": "top_edge",
+        "diameter_mm": 0.2,
+        "score_over_cutoff": 5.139,
+        "caught": true
+      },
+      "d020_gear_1:G1_D2": {
+        "kind": "top_edge",
+        "diameter_mm": 0.2,
+        "score_over_cutoff": 3.325,
+        "caught": true
+      },
+      "d020_gear_1:G1_D3": {
+        "kind": "top_edge",
+        "diameter_mm": 0.2,
+        "score_over_cutoff": 3.555,
+        "caught": true
+      },
+      "d020_gear_1:G1_D4": {
+        "kind": "crown",
+        "diameter_mm": 0.2,
+        "score_over_cutoff": 2.407,
+        "caught": true
+      },
+      "d020_gear_1:G1_D5": {
+        "kind": "flank",
+        "diameter_mm": 0.2,
+        "score_over_cutoff": 7.841,
+        "caught": true
+      },
+      "d020_gear_4:G4_D1": {
+        "kind": "top_edge",
+        "diameter_mm": 0.2,
+        "score_over_cutoff": 9.5,
+        "caught": true
+      },
+      "d020_gear_4:G4_D2": {
+        "kind": "top_edge",
+        "diameter_mm": 0.2,
+        "score_over_cutoff": 3.785,
+        "caught": true
+      },
+      "d020_gear_4:G4_D3": {
+        "kind": "top_edge",
+        "diameter_mm": 0.2,
+        "score_over_cutoff": 14.458,
+        "caught": true
+      },
+      "d020_gear_4:G4_D4": {
+        "kind": "crown",
+        "diameter_mm": 0.2,
+        "score_over_cutoff": 2.44,
+        "caught": true
+      },
+      "d020_gear_4:G4_D5": {
+        "kind": "flank",
+        "diameter_mm": 0.2,
+        "score_over_cutoff": 3.783,
+        "caught": true
+      },
+      "d020_gear_5:G5_D1": {
+        "kind": "top_edge",
+        "diameter_mm": 0.2,
+        "score_over_cutoff": 3.146,
+        "caught": true
+      },
+      "d020_gear_5:G5_D2": {
+        "kind": "top_edge",
+        "diameter_mm": 0.2,
+        "score_over_cutoff": 13.123,
+        "caught": true
+      },
+      "d020_gear_5:G5_D3": {
+        "kind": "top_edge",
+        "diameter_mm": 0.2,
+        "score_over_cutoff": 3.768,
+        "caught": true
+      },
+      "d020_gear_5:G5_D4": {
+        "kind": "crown",
+        "diameter_mm": 0.2,
+        "score_over_cutoff": 3.238,
+        "caught": true
+      },
+      "d020_gear_5:G5_D5": {
+        "kind": "flank",
+        "diameter_mm": 0.2,
+        "score_over_cutoff": 7.058,
+        "caught": true
+      }
+    }
+  },
+  "by_group_caught_of_total": {
+    "\u00d80.10 mm": [
+      11,
+      15
+    ],
+    "top_edge": [
+      16,
+      18
+    ],
+    "crown": [
+      6,
+      6
+    ],
+    "flank": [
+      4,
+      6
+    ],
+    "\u00d80.20 mm": [
+      15,
+      15
+    ]
+  },
+  "validation_gear": {
+    "TP": 4,
+    "FN": 1,
+    "FP": 0,
+    "TN": 0,
+    "accuracy": 0.8,
+    "detection_rate": 0.8,
+    "false_alarms_per_tooth": null,
+    "precision": 1.0,
+    "F1": 0.889,
+    "missed": [
+      "d010_validation_gear:V_D5"
+    ],
+    "flagged_teeth": [],
+    "cavities": {
+      "d010_validation_gear:V_D1": {
+        "kind": "top_edge",
+        "diameter_mm": 0.1,
+        "score_over_cutoff": 1.825,
+        "caught": true
+      },
+      "d010_validation_gear:V_D2": {
+        "kind": "top_edge",
+        "diameter_mm": 0.1,
+        "score_over_cutoff": 6.079,
+        "caught": true
+      },
+      "d010_validation_gear:V_D3": {
+        "kind": "top_edge",
+        "diameter_mm": 0.1,
+        "score_over_cutoff": 1.122,
+        "caught": true
+      },
+      "d010_validation_gear:V_D4": {
+        "kind": "crown",
+        "diameter_mm": 0.1,
+        "score_over_cutoff": 1.797,
+        "caught": true
+      },
+      "d010_validation_gear:V_D5": {
+        "kind": "flank",
+        "diameter_mm": 0.1,
+        "score_over_cutoff": 0.704,
+        "caught": false
+      }
+    }
+  }
+}

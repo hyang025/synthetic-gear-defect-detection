@@ -1,0 +1,50 @@
+{
+  "method": "Histogram equalized",
+  "threshold_selection": "Frozen validation F1",
+  "threshold": 20.502267837524414,
+  "healthy_training_frames": 1880,
+  "bank_shape": [
+    4812,
+    1536
+  ],
+  "defects": 15,
+  "tp": 14,
+  "fn": 1,
+  "detection_rate_percent": 93.33333333333333,
+  "healthy_test_frames": 440,
+  "fp": 39,
+  "false_positive_rate_percent": 8.863636363636363,
+  "per_gear": [
+    {
+      "gear": "gear_1",
+      "defects": 5,
+      "tp": 4,
+      "fn": 1
+    },
+    {
+      "gear": "gear_4",
+      "defects": 5,
+      "tp": 5,
+      "fn": 0
+    },
+    {
+      "gear": "gear_5",
+      "defects": 5,
+      "tp": 5,
+      "fn": 0
+    }
+  ],
+  "small_defect_baseline": {
+    "diameter_mm": 0.1,
+    "depth_um": 50,
+    "tp": 6,
+    "fn": 9,
+    "detection_rate_percent": 40.0
+  },
+  "evaluation_unit": "Detection/FN per physical defect; FP per unique healthy test frame",
+  "frozen_reference": "outputs/patchcore_hemisphere_dense_25mm/histogram",
+  "test_gears_used_for_fitting": false,
+  "paired_ray_seeds": true,
+  "fixed_defect_centers": true,
+  "fixed_passage_half_width_deg": 0.4
+}

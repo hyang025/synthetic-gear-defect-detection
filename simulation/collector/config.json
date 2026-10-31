@@ -1,0 +1,54 @@
+{
+  "variant": "cuda_ad_rgb",
+  "scene_units": "meters",
+  "stage": "finite aperture with ideal angular mapping",
+  "wavelength_nm": 650,
+  "surface": {
+    "length_mm": 6.7,
+    "width_mm": 0.7,
+    "thickness_mm": 0.5,
+    "fine_mesh_step_mm": 0.001,
+    "fine_mesh_half_width_mm": 0.065,
+    "coarse_mesh_step_mm": 0.05
+  },
+  "dent": {
+    "diameter_mm": 0.1,
+    "depth_mm": 0.025,
+    "center_mm": [0, 0],
+    "shape": "z = -depth * (1 - (radius / rim_radius)^2)^2 inside circular rim"
+  },
+  "pose": {"healthy_tilt_x_deg": 0.05},
+  "laser": {
+    "distance_mm": 300,
+    "incidence_deg": 30,
+    "line_length_mm": 6.7,
+    "line_width_fwhm_mm": 0.1,
+    "profile": "Uniform along x; Gaussian along y on the nominal z=0 surface",
+    "total_power_relative": 1
+  },
+  "collector": {
+    "diameter_mm": 50,
+    "distance_mm": 25,
+    "focal_length_mm": 50,
+    "transmission": 1
+  },
+  "screen": {"width_mm": 150, "height_mm": 150, "width_px": 1024, "height_px": 1024},
+  "material": {
+    "type": "roughconductor",
+    "distribution": "ggx",
+    "alpha": 0.05,
+    "reflectance": 0.55,
+    "optical_model": "Assumed ideal-conductor proxy with constant reflectance",
+    "surface_detail": "Uniform GGX roughness"
+  },
+  "sampling": {
+    "batches": 128,
+    "rays_per_batch": 262144,
+    "seed": 6502500,
+    "max_surface_bounces": 8,
+    "ray_offset_m": 1e-8,
+    "central_proposal_fraction": 0.5,
+    "central_proposal_length_mm": 0.15
+  },
+  "analysis": {"angle_half_range_deg": 60, "angle_bins": 1200}
+}

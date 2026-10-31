@@ -1,0 +1,365 @@
+{
+  "strict_cutoff": 0.0026439244066358905,
+  "cavities": [
+    {
+      "cavity": "d010_gear_2:G2_D5",
+      "kind": "flank",
+      "diameter_mm": 0.1,
+      "peak_over_strict": 0.774,
+      "signal_over_noise": 1.02,
+      "light_change_pct": -0.021,
+      "outside_window_change_pct_points": -0.001
+    },
+    {
+      "cavity": "d010_gear_2:G2_D2",
+      "kind": "top_edge",
+      "diameter_mm": 0.1,
+      "peak_over_strict": 0.781,
+      "signal_over_noise": 1.01,
+      "light_change_pct": -0.444,
+      "outside_window_change_pct_points": 0.008
+    },
+    {
+      "cavity": "d010_gear_3:G3_D3",
+      "kind": "top_edge",
+      "diameter_mm": 0.1,
+      "peak_over_strict": 0.867,
+      "signal_over_noise": 1.04,
+      "light_change_pct": -0.439,
+      "outside_window_change_pct_points": 0.003
+    },
+    {
+      "cavity": "rand_train_5:T5_D3",
+      "kind": "top_edge",
+      "diameter_mm": 0.115,
+      "peak_over_strict": 0.907,
+      "signal_over_noise": 1.06,
+      "light_change_pct": -0.626,
+      "outside_window_change_pct_points": 0.009
+    },
+    {
+      "cavity": "d010_gear_3:G3_D5",
+      "kind": "flank",
+      "diameter_mm": 0.1,
+      "peak_over_strict": 0.917,
+      "signal_over_noise": 1.02,
+      "light_change_pct": 0.135,
+      "outside_window_change_pct_points": -0.048
+    },
+    {
+      "cavity": "rand_train_1:T1_D4",
+      "kind": "top_edge",
+      "diameter_mm": 0.1,
+      "peak_over_strict": 0.97,
+      "signal_over_noise": 1.06,
+      "light_change_pct": -0.329,
+      "outside_window_change_pct_points": 0.019
+    },
+    {
+      "cavity": "d010_gear_3:G3_D1",
+      "kind": "top_edge",
+      "diameter_mm": 0.1,
+      "peak_over_strict": 1.037,
+      "signal_over_noise": 1.0,
+      "light_change_pct": -0.321,
+      "outside_window_change_pct_points": 0.013
+    },
+    {
+      "cavity": "d010_gear_3:G3_D4",
+      "kind": "crown",
+      "diameter_mm": 0.1,
+      "peak_over_strict": 1.148,
+      "signal_over_noise": 1.1,
+      "light_change_pct": -0.789,
+      "outside_window_change_pct_points": 0.028
+    },
+    {
+      "cavity": "d010_gear_2:G2_D4",
+      "kind": "crown",
+      "diameter_mm": 0.1,
+      "peak_over_strict": 1.172,
+      "signal_over_noise": 1.08,
+      "light_change_pct": -0.783,
+      "outside_window_change_pct_points": 0.027
+    },
+    {
+      "cavity": "rand_train_3:T3_D2",
+      "kind": "flank",
+      "diameter_mm": 0.135,
+      "peak_over_strict": 1.273,
+      "signal_over_noise": 1.06,
+      "light_change_pct": -0.073,
+      "outside_window_change_pct_points": -0.002
+    },
+    {
+      "cavity": "rand_train_4:T4_D5",
+      "kind": "top_edge",
+      "diameter_mm": 0.145,
+      "peak_over_strict": 1.415,
+      "signal_over_noise": 1.06,
+      "light_change_pct": -1.189,
+      "outside_window_change_pct_points": 0.027
+    },
+    {
+      "cavity": "d010_gear_2:G2_D1",
+      "kind": "top_edge",
+      "diameter_mm": 0.1,
+      "peak_over_strict": 1.445,
+      "signal_over_noise": 1.08,
+      "light_change_pct": -0.595,
+      "outside_window_change_pct_points": 0.02
+    },
+    {
+      "cavity": "rand_train_3:T3_D1",
+      "kind": "crown",
+      "diameter_mm": 0.12,
+      "peak_over_strict": 1.505,
+      "signal_over_noise": 1.15,
+      "light_change_pct": -0.999,
+      "outside_window_change_pct_points": 0.028
+    },
+    {
+      "cavity": "rand_train_4:T4_D3",
+      "kind": "crown",
+      "diameter_mm": 0.125,
+      "peak_over_strict": 1.514,
+      "signal_over_noise": 1.15,
+      "light_change_pct": -1.051,
+      "outside_window_change_pct_points": 0.033
+    },
+    {
+      "cavity": "rand_train_5:T5_D4",
+      "kind": "flank",
+      "diameter_mm": 0.16,
+      "peak_over_strict": 1.556,
+      "signal_over_noise": 1.14,
+      "light_change_pct": -0.387,
+      "outside_window_change_pct_points": -0.006
+    },
+    {
+      "cavity": "rand_train_3:T3_D5",
+      "kind": "top_edge",
+      "diameter_mm": 0.16,
+      "peak_over_strict": 1.558,
+      "signal_over_noise": 1.14,
+      "light_change_pct": -1.101,
+      "outside_window_change_pct_points": 0.024
+    },
+    {
+      "cavity": "rand_train_6:T6_D1",
+      "kind": "top_edge",
+      "diameter_mm": 0.165,
+      "peak_over_strict": 1.559,
+      "signal_over_noise": 1.24,
+      "light_change_pct": -0.758,
+      "outside_window_change_pct_points": 0.019
+    },
+    {
+      "cavity": "rand_train_2:T2_D2",
+      "kind": "crown",
+      "diameter_mm": 0.13,
+      "peak_over_strict": 1.582,
+      "signal_over_noise": 1.18,
+      "light_change_pct": -1.105,
+      "outside_window_change_pct_points": 0.031
+    },
+    {
+      "cavity": "rand_train_5:T5_D1",
+      "kind": "top_edge",
+      "diameter_mm": 0.165,
+      "peak_over_strict": 1.584,
+      "signal_over_noise": 1.15,
+      "light_change_pct": -0.949,
+      "outside_window_change_pct_points": 0.032
+    },
+    {
+      "cavity": "rand_train_6:T6_D2",
+      "kind": "top_edge",
+      "diameter_mm": 0.16,
+      "peak_over_strict": 1.585,
+      "signal_over_noise": 1.18,
+      "light_change_pct": -1.044,
+      "outside_window_change_pct_points": 0.029
+    },
+    {
+      "cavity": "rand_train_2:T2_D5",
+      "kind": "flank",
+      "diameter_mm": 0.175,
+      "peak_over_strict": 1.664,
+      "signal_over_noise": 1.2,
+      "light_change_pct": -0.629,
+      "outside_window_change_pct_points": 0.029
+    },
+    {
+      "cavity": "rand_train_4:T4_D1",
+      "kind": "flank",
+      "diameter_mm": 0.165,
+      "peak_over_strict": 1.786,
+      "signal_over_noise": 1.14,
+      "light_change_pct": -0.665,
+      "outside_window_change_pct_points": 0.002
+    },
+    {
+      "cavity": "d010_gear_3:G3_D2",
+      "kind": "top_edge",
+      "diameter_mm": 0.1,
+      "peak_over_strict": 1.82,
+      "signal_over_noise": 1.05,
+      "light_change_pct": -0.438,
+      "outside_window_change_pct_points": 0.03
+    },
+    {
+      "cavity": "rand_train_4:T4_D4",
+      "kind": "top_edge",
+      "diameter_mm": 0.155,
+      "peak_over_strict": 1.84,
+      "signal_over_noise": 1.15,
+      "light_change_pct": -1.112,
+      "outside_window_change_pct_points": 0.04
+    },
+    {
+      "cavity": "rand_train_1:T1_D2",
+      "kind": "flank",
+      "diameter_mm": 0.19,
+      "peak_over_strict": 1.908,
+      "signal_over_noise": 1.25,
+      "light_change_pct": -1.005,
+      "outside_window_change_pct_points": 0.031
+    },
+    {
+      "cavity": "rand_train_6:T6_D4",
+      "kind": "flank",
+      "diameter_mm": 0.19,
+      "peak_over_strict": 1.959,
+      "signal_over_noise": 1.31,
+      "light_change_pct": -0.873,
+      "outside_window_change_pct_points": 0.034
+    },
+    {
+      "cavity": "rand_train_4:T4_D2",
+      "kind": "top_edge",
+      "diameter_mm": 0.105,
+      "peak_over_strict": 2.0,
+      "signal_over_noise": 1.11,
+      "light_change_pct": -0.676,
+      "outside_window_change_pct_points": 0.008
+    },
+    {
+      "cavity": "rand_train_2:T2_D1",
+      "kind": "top_edge",
+      "diameter_mm": 0.19,
+      "peak_over_strict": 2.038,
+      "signal_over_noise": 1.24,
+      "light_change_pct": -1.436,
+      "outside_window_change_pct_points": 0.032
+    },
+    {
+      "cavity": "rand_train_1:T1_D5",
+      "kind": "crown",
+      "diameter_mm": 0.14,
+      "peak_over_strict": 2.069,
+      "signal_over_noise": 1.26,
+      "light_change_pct": -1.268,
+      "outside_window_change_pct_points": 0.045
+    },
+    {
+      "cavity": "rand_train_6:T6_D3",
+      "kind": "top_edge",
+      "diameter_mm": 0.19,
+      "peak_over_strict": 2.19,
+      "signal_over_noise": 1.25,
+      "light_change_pct": -1.36,
+      "outside_window_change_pct_points": 0.058
+    },
+    {
+      "cavity": "rand_train_5:T5_D5",
+      "kind": "crown",
+      "diameter_mm": 0.18,
+      "peak_over_strict": 2.398,
+      "signal_over_noise": 1.45,
+      "light_change_pct": -1.626,
+      "outside_window_change_pct_points": 0.058
+    },
+    {
+      "cavity": "rand_train_6:T6_D5",
+      "kind": "crown",
+      "diameter_mm": 0.195,
+      "peak_over_strict": 2.514,
+      "signal_over_noise": 1.53,
+      "light_change_pct": -2.245,
+      "outside_window_change_pct_points": 0.07
+    },
+    {
+      "cavity": "rand_train_2:T2_D3",
+      "kind": "top_edge",
+      "diameter_mm": 0.1,
+      "peak_over_strict": 2.817,
+      "signal_over_noise": 1.18,
+      "light_change_pct": -0.699,
+      "outside_window_change_pct_points": 0.079
+    },
+    {
+      "cavity": "rand_train_1:T1_D3",
+      "kind": "top_edge",
+      "diameter_mm": 0.135,
+      "peak_over_strict": 2.848,
+      "signal_over_noise": 1.21,
+      "light_change_pct": -0.88,
+      "outside_window_change_pct_points": 0.058
+    },
+    {
+      "cavity": "d010_gear_2:G2_D3",
+      "kind": "top_edge",
+      "diameter_mm": 0.1,
+      "peak_over_strict": 3.144,
+      "signal_over_noise": 1.18,
+      "light_change_pct": -0.74,
+      "outside_window_change_pct_points": 0.08
+    },
+    {
+      "cavity": "rand_train_3:T3_D3",
+      "kind": "top_edge",
+      "diameter_mm": 0.105,
+      "peak_over_strict": 3.438,
+      "signal_over_noise": 1.22,
+      "light_change_pct": -0.799,
+      "outside_window_change_pct_points": 0.086
+    },
+    {
+      "cavity": "rand_train_1:T1_D1",
+      "kind": "top_edge",
+      "diameter_mm": 0.145,
+      "peak_over_strict": 4.073,
+      "signal_over_noise": 1.35,
+      "light_change_pct": -1.35,
+      "outside_window_change_pct_points": 0.082
+    },
+    {
+      "cavity": "rand_train_5:T5_D2",
+      "kind": "top_edge",
+      "diameter_mm": 0.165,
+      "peak_over_strict": 4.261,
+      "signal_over_noise": 1.41,
+      "light_change_pct": -1.484,
+      "outside_window_change_pct_points": 0.063
+    },
+    {
+      "cavity": "rand_train_3:T3_D4",
+      "kind": "top_edge",
+      "diameter_mm": 0.195,
+      "peak_over_strict": 6.562,
+      "signal_over_noise": 1.81,
+      "light_change_pct": -2.056,
+      "outside_window_change_pct_points": 0.192
+    },
+    {
+      "cavity": "rand_train_2:T2_D4",
+      "kind": "top_edge",
+      "diameter_mm": 0.195,
+      "peak_over_strict": 6.967,
+      "signal_over_noise": 1.71,
+      "light_change_pct": -1.887,
+      "outside_window_change_pct_points": 0.176
+    }
+  ]
+}

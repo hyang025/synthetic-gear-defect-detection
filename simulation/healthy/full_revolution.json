@@ -1,0 +1,55 @@
+{
+  "mesh": "../gear/model/damage_test/healthy_control.obj",
+  "gear_parameters": "../gear/model_parameters.json",
+  "variant": "cuda_ad_rgb",
+  "scene_units": "meters",
+  "inspection": {
+    "tooth_index": 0,
+    "radial_fraction": 0.55,
+    "surface": "tooth crown",
+    "rotation": {"start_deg": 0.0, "stop_deg": 360.0, "step_deg": 1.0}
+  },
+  "camera": {
+    "physical_focal_length_mm": 12.0,
+    "f_number": 2.2,
+    "patch_to_pupil_mm": 25.0,
+    "sensor_width_mm": 3.84,
+    "sensor_height_mm": 2.4,
+    "width_px": 640,
+    "height_px": 400,
+    "focus_distance_m": 100.0
+  },
+  "laser": {
+    "layout": "diameter",
+    "distance_mm": 300.0,
+    "incidence_deg": 30.0,
+    "incidence_tangent_sign": -1,
+    "wavelength_nm": 650,
+    "wavelength_handling": "RGB-red approximation, not wavelength-resolved propagation or calibrated spectral reflectance",
+    "surface_width_fwhm_mm": 0.1,
+    "surface_length_mm": 48.0,
+    "end_transition_mm": 1.0,
+    "projection_field_mm": 48.0,
+    "texture_width_px": 256,
+    "texture_height_px": 4096,
+    "projector_scale": 1.0,
+    "rgb": [1.0, 0.0, 0.0]
+  },
+  "material": {
+    "distribution": "ggx", "alpha": 0.05,
+    "reflectance": 0.55, "machining_marks": true
+  },
+  "render": {
+    "samples_per_pixel": 512, "samples_per_pass": 8,
+    "seed": 20260929, "max_depth": 4
+  },
+  "analysis": {
+    "profile_axis": "image columns; sum over rows",
+    "signal_channel": "linear red", "minimum_relative_energy": 0.01,
+    "border_pixels": 4, "border_fraction_warning": 0.01
+  },
+  "animation": {
+    "fps": 25, "gif_width_px": 320,
+    "note": "14.4 second playback for one revolution; illustrative speed, not a measured motor rate. No motion blur."
+  }
+}

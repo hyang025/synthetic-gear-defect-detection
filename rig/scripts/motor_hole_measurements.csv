@@ -1,0 +1,4 @@
+Dimension,r04 mm,Measured photo mm,r05 nominal mm,Estimated uncertainty mm
+motor_hole_pitch_x_mm,36.0,33.062,33.0,0.3
+motor_hole_pitch_y_mm,19.0,17.864,18.0,0.3
+motor_shaft_to_left_hole_column_mm,9.0,9.715,9.7,0.3

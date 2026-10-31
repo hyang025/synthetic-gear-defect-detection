@@ -1,0 +1,16 @@
+{
+  "source_run": "outputs/patchcore_prototype_25mm",
+  "spherical_run": "outputs/patchcore_hemisphere_0p1_25mm",
+  "output": "outputs/patchcore_hemisphere_shadowboost_25mm",
+  "test_gear": "gear_1",
+  "validation_gear": "validation_gear",
+  "display_label": "Asinh shadow boost",
+  "transform": {"mode": "asinh", "asinh_dynamic_range": 10000, "headroom_multiplier": 1.10, "precision_bits": 8},
+  "threshold_policy": {
+    "objective": "maximize validation image F1",
+    "implementation": "anomalib.metrics.F1AdaptiveThreshold",
+    "positive_frames": "Predeclared validation-defect passage windows",
+    "negative_frames": "Healthy calibration split with asinh preprocessing",
+    "false_alarm_cap": null
+  }
+}

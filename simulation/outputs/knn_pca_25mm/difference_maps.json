@@ -1,0 +1,92 @@
+[
+  {
+    "cavity": "G2_D2",
+    "status": "missed",
+    "kind": "top_edge",
+    "diameter_mm": 0.1,
+    "frame_index": 1324,
+    "light_change_pct": null,
+    "2deg": {
+      "max_abs_signal_over_max_abs_noise": 1.18,
+      "norm_signal_over_norm_noise": 1.01,
+      "share_of_signal_energy_in_top_10_bins": 0.064
+    },
+    "0.5deg": {
+      "max_abs_signal_over_max_abs_noise": 1.13,
+      "norm_signal_over_norm_noise": 1.0,
+      "share_of_signal_energy_in_top_10_bins": 0.006
+    }
+  },
+  {
+    "cavity": "G2_D5",
+    "status": "missed",
+    "kind": "flank",
+    "diameter_mm": 0.1,
+    "frame_index": 172,
+    "light_change_pct": null,
+    "2deg": {
+      "max_abs_signal_over_max_abs_noise": 1.47,
+      "norm_signal_over_norm_noise": 1.02,
+      "share_of_signal_energy_in_top_10_bins": 0.069
+    },
+    "0.5deg": {
+      "max_abs_signal_over_max_abs_noise": 0.97,
+      "norm_signal_over_norm_noise": 1.0,
+      "share_of_signal_energy_in_top_10_bins": 0.007
+    }
+  },
+  {
+    "cavity": "G3_D3",
+    "status": "missed",
+    "kind": "top_edge",
+    "diameter_mm": 0.1,
+    "frame_index": 1104,
+    "light_change_pct": null,
+    "2deg": {
+      "max_abs_signal_over_max_abs_noise": 1.17,
+      "norm_signal_over_norm_noise": 1.04,
+      "share_of_signal_energy_in_top_10_bins": 0.064
+    },
+    "0.5deg": {
+      "max_abs_signal_over_max_abs_noise": 1.08,
+      "norm_signal_over_norm_noise": 1.0,
+      "share_of_signal_energy_in_top_10_bins": 0.006
+    }
+  },
+  {
+    "cavity": "G2_D3",
+    "status": "caught",
+    "kind": "top_edge",
+    "diameter_mm": 0.1,
+    "frame_index": 926,
+    "light_change_pct": null,
+    "2deg": {
+      "max_abs_signal_over_max_abs_noise": 1.82,
+      "norm_signal_over_norm_noise": 1.18,
+      "share_of_signal_energy_in_top_10_bins": 0.085
+    },
+    "0.5deg": {
+      "max_abs_signal_over_max_abs_noise": 1.13,
+      "norm_signal_over_norm_noise": 1.02,
+      "share_of_signal_energy_in_top_10_bins": 0.007
+    }
+  },
+  {
+    "cavity": "G3_D4",
+    "status": "caught",
+    "kind": "crown",
+    "diameter_mm": 0.1,
+    "frame_index": 713,
+    "light_change_pct": null,
+    "2deg": {
+      "max_abs_signal_over_max_abs_noise": 1.15,
+      "norm_signal_over_norm_noise": 1.1,
+      "share_of_signal_energy_in_top_10_bins": 0.065
+    },
+    "0.5deg": {
+      "max_abs_signal_over_max_abs_noise": 1.03,
+      "norm_signal_over_norm_noise": 1.0,
+      "share_of_signal_energy_in_top_10_bins": 0.007
+    }
+  }
+]

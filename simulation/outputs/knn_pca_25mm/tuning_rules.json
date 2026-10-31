@@ -1,0 +1,274 @@
+{
+  "PCA 20": [
+    {
+      "in_a_row": 1,
+      "healthy_teeth_flagged": 0,
+      "cutoff": 0.0026439244066358905,
+      "missed": [
+        "d010_gear_2:G2_D2",
+        "d010_gear_2:G2_D5",
+        "d010_gear_3:G3_D3",
+        "d010_gear_3:G3_D5",
+        "rand_train_1:T1_D4",
+        "rand_train_5:T5_D3"
+      ]
+    },
+    {
+      "in_a_row": 1,
+      "healthy_teeth_flagged": 1,
+      "cutoff": 0.002591736208690007,
+      "missed": [
+        "d010_gear_2:G2_D2",
+        "d010_gear_2:G2_D5",
+        "d010_gear_3:G3_D3",
+        "d010_gear_3:G3_D5",
+        "rand_train_1:T1_D4",
+        "rand_train_5:T5_D3"
+      ]
+    },
+    {
+      "in_a_row": 1,
+      "healthy_teeth_flagged": 2,
+      "cutoff": 0.0024975946239043146,
+      "missed": [
+        "d010_gear_2:G2_D2",
+        "d010_gear_2:G2_D5",
+        "d010_gear_3:G3_D3",
+        "d010_gear_3:G3_D5",
+        "rand_train_5:T5_D3"
+      ]
+    },
+    {
+      "in_a_row": 2,
+      "healthy_teeth_flagged": 0,
+      "cutoff": 0.0023199980130607597,
+      "missed": [
+        "d010_gear_2:G2_D2",
+        "d010_gear_2:G2_D4",
+        "d010_gear_2:G2_D5",
+        "d010_gear_3:G3_D1",
+        "d010_gear_3:G3_D3",
+        "d010_gear_3:G3_D4",
+        "d010_gear_3:G3_D5",
+        "rand_train_1:T1_D4",
+        "rand_train_3:T3_D2",
+        "rand_train_5:T5_D3"
+      ]
+    },
+    {
+      "in_a_row": 2,
+      "healthy_teeth_flagged": 1,
+      "cutoff": 0.00226922414847714,
+      "missed": [
+        "d010_gear_2:G2_D2",
+        "d010_gear_2:G2_D4",
+        "d010_gear_2:G2_D5",
+        "d010_gear_3:G3_D1",
+        "d010_gear_3:G3_D3",
+        "d010_gear_3:G3_D4",
+        "d010_gear_3:G3_D5",
+        "rand_train_1:T1_D4",
+        "rand_train_3:T3_D2",
+        "rand_train_5:T5_D3"
+      ]
+    },
+    {
+      "in_a_row": 2,
+      "healthy_teeth_flagged": 2,
+      "cutoff": 0.0022683176537735827,
+      "missed": [
+        "d010_gear_2:G2_D2",
+        "d010_gear_2:G2_D4",
+        "d010_gear_2:G2_D5",
+        "d010_gear_3:G3_D1",
+        "d010_gear_3:G3_D3",
+        "d010_gear_3:G3_D4",
+        "d010_gear_3:G3_D5",
+        "rand_train_1:T1_D4",
+        "rand_train_3:T3_D2",
+        "rand_train_5:T5_D3"
+      ]
+    },
+    {
+      "in_a_row": 3,
+      "healthy_teeth_flagged": 0,
+      "cutoff": 0.0021322486319790266,
+      "missed": [
+        "d010_gear_2:G2_D1",
+        "d010_gear_2:G2_D2",
+        "d010_gear_2:G2_D4",
+        "d010_gear_2:G2_D5",
+        "d010_gear_3:G3_D1",
+        "d010_gear_3:G3_D2",
+        "d010_gear_3:G3_D3",
+        "d010_gear_3:G3_D4",
+        "d010_gear_3:G3_D5",
+        "rand_train_1:T1_D4",
+        "rand_train_2:T2_D2",
+        "rand_train_3:T3_D1",
+        "rand_train_3:T3_D2",
+        "rand_train_4:T4_D1",
+        "rand_train_5:T5_D3"
+      ]
+    },
+    {
+      "in_a_row": 3,
+      "healthy_teeth_flagged": 1,
+      "cutoff": 0.002123780826724946,
+      "missed": [
+        "d010_gear_2:G2_D1",
+        "d010_gear_2:G2_D2",
+        "d010_gear_2:G2_D4",
+        "d010_gear_2:G2_D5",
+        "d010_gear_3:G3_D1",
+        "d010_gear_3:G3_D2",
+        "d010_gear_3:G3_D3",
+        "d010_gear_3:G3_D4",
+        "d010_gear_3:G3_D5",
+        "rand_train_1:T1_D4",
+        "rand_train_2:T2_D2",
+        "rand_train_3:T3_D1",
+        "rand_train_3:T3_D2",
+        "rand_train_4:T4_D1",
+        "rand_train_5:T5_D3"
+      ]
+    },
+    {
+      "in_a_row": 3,
+      "healthy_teeth_flagged": 2,
+      "cutoff": 0.0020882728440656307,
+      "missed": [
+        "d010_gear_2:G2_D1",
+        "d010_gear_2:G2_D2",
+        "d010_gear_2:G2_D4",
+        "d010_gear_2:G2_D5",
+        "d010_gear_3:G3_D1",
+        "d010_gear_3:G3_D2",
+        "d010_gear_3:G3_D3",
+        "d010_gear_3:G3_D4",
+        "d010_gear_3:G3_D5",
+        "rand_train_1:T1_D4",
+        "rand_train_3:T3_D1",
+        "rand_train_3:T3_D2",
+        "rand_train_5:T5_D3"
+      ]
+    }
+  ],
+  "PCA 5": [
+    {
+      "in_a_row": 1,
+      "healthy_teeth_flagged": 0,
+      "cutoff": 0.0016161229734647819,
+      "missed": [
+        "d010_gear_2:G2_D2",
+        "d010_gear_2:G2_D5",
+        "d010_gear_3:G3_D3",
+        "d010_gear_3:G3_D5",
+        "rand_train_1:T1_D4",
+        "rand_train_2:T2_D2",
+        "rand_train_3:T3_D2",
+        "rand_train_4:T4_D3",
+        "rand_train_5:T5_D3"
+      ]
+    },
+    {
+      "in_a_row": 1,
+      "healthy_teeth_flagged": 1,
+      "cutoff": 0.0014512754870125912,
+      "missed": [
+        "d010_gear_2:G2_D2",
+        "d010_gear_2:G2_D5",
+        "rand_train_1:T1_D4",
+        "rand_train_5:T5_D3"
+      ]
+    },
+    {
+      "in_a_row": 1,
+      "healthy_teeth_flagged": 2,
+      "cutoff": 0.0013317676752579,
+      "missed": [
+        "d010_gear_2:G2_D2",
+        "d010_gear_2:G2_D5",
+        "rand_train_1:T1_D4"
+      ]
+    },
+    {
+      "in_a_row": 2,
+      "healthy_teeth_flagged": 0,
+      "cutoff": 0.0011196569165512428,
+      "missed": [
+        "d010_gear_2:G2_D2",
+        "d010_gear_2:G2_D5",
+        "d010_gear_3:G3_D3"
+      ]
+    },
+    {
+      "in_a_row": 2,
+      "healthy_teeth_flagged": 1,
+      "cutoff": 0.0010695721720817785,
+      "missed": [
+        "d010_gear_2:G2_D2",
+        "d010_gear_2:G2_D5",
+        "d010_gear_3:G3_D3"
+      ]
+    },
+    {
+      "in_a_row": 2,
+      "healthy_teeth_flagged": 2,
+      "cutoff": 0.0010193979225648043,
+      "missed": [
+        "d010_gear_2:G2_D5",
+        "d010_gear_3:G3_D3"
+      ]
+    },
+    {
+      "in_a_row": 3,
+      "healthy_teeth_flagged": 0,
+      "cutoff": 0.0009966343952570844,
+      "missed": [
+        "d010_gear_2:G2_D1",
+        "d010_gear_2:G2_D2",
+        "d010_gear_2:G2_D5",
+        "d010_gear_3:G3_D1",
+        "d010_gear_3:G3_D3",
+        "d010_gear_3:G3_D4",
+        "d010_gear_3:G3_D5",
+        "rand_train_1:T1_D4",
+        "rand_train_3:T3_D2",
+        "rand_train_5:T5_D3"
+      ]
+    },
+    {
+      "in_a_row": 3,
+      "healthy_teeth_flagged": 1,
+      "cutoff": 0.000989784776344715,
+      "missed": [
+        "d010_gear_2:G2_D1",
+        "d010_gear_2:G2_D2",
+        "d010_gear_2:G2_D5",
+        "d010_gear_3:G3_D1",
+        "d010_gear_3:G3_D3",
+        "d010_gear_3:G3_D4",
+        "d010_gear_3:G3_D5",
+        "rand_train_1:T1_D4",
+        "rand_train_3:T3_D2",
+        "rand_train_5:T5_D3"
+      ]
+    },
+    {
+      "in_a_row": 3,
+      "healthy_teeth_flagged": 2,
+      "cutoff": 0.0009226285739580746,
+      "missed": [
+        "d010_gear_2:G2_D2",
+        "d010_gear_2:G2_D5",
+        "d010_gear_3:G3_D1",
+        "d010_gear_3:G3_D3",
+        "d010_gear_3:G3_D4",
+        "rand_train_1:T1_D4",
+        "rand_train_3:T3_D2",
+        "rand_train_5:T5_D3"
+      ]
+    }
+  ]
+}

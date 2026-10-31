@@ -1,0 +1,201 @@
+{
+  "gears": [
+    {
+      "id": "validation_gear",
+      "defects": [
+        {
+          "id": "V_D1",
+          "tooth": 5,
+          "radial_fraction": 0.4,
+          "kind": "top_edge",
+          "side": -1,
+          "diameter_mm": 0.05,
+          "depth_mm": 0.025,
+          "surface_point_mm": [
+            12.326210922929386,
+            13.058359340184849,
+            12.054974561152045
+          ],
+          "surface_normal": [
+            0.241958403645852,
+            0.2652517869858539,
+            0.9333261061418792
+          ],
+          "along_tangent": [
+            0.8948203786129052,
+            0.31092961065986163,
+            -0.3203424218456926
+          ],
+          "across_tangent": [
+            -0.3751701226433254,
+            0.9126687606770147,
+            -0.16212067221694504
+          ],
+          "sphere_center_mm": [
+            12.326210922929386,
+            13.058359340184849,
+            12.054974561152045
+          ],
+          "sphere_radius_mm": 0.025000000000000005,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        },
+        {
+          "id": "V_D2",
+          "tooth": 12,
+          "radial_fraction": 0.55,
+          "kind": "top_edge",
+          "side": 1,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05,
+          "surface_point_mm": [
+            -9.261985590547212,
+            16.86981652669406,
+            11.559564888465868
+          ],
+          "surface_normal": [
+            -0.1677737357296052,
+            0.3174091310329417,
+            0.9333292115519826
+          ],
+          "along_tangent": [
+            0.07619196700027248,
+            0.948091969021988,
+            -0.30873354602413905
+          ],
+          "across_tangent": [
+            -0.9828767764902995,
+            0.019314808125441174,
+            -0.18324895749530312
+          ],
+          "sphere_center_mm": [
+            -9.261985590547212,
+            16.86981652669406,
+            11.559564888465868
+          ],
+          "sphere_radius_mm": 0.05000000000000001,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        },
+        {
+          "id": "V_D3",
+          "tooth": 19,
+          "radial_fraction": 0.45,
+          "kind": "top_edge",
+          "side": -1,
+          "diameter_mm": 0.2,
+          "depth_mm": 0.025,
+          "surface_point_mm": [
+            -17.991104180931426,
+            -3.2065989197373916,
+            11.932834556916667
+          ],
+          "surface_normal": [
+            -0.35235842016603836,
+            -0.06887794723051054,
+            0.9333270445687325
+          ],
+          "along_tangent": [
+            -0.8982576651402577,
+            0.30476224667993507,
+            -0.3166277625467656
+          ],
+          "across_tangent": [
+            -0.26263417666950006,
+            -0.9499346300582527,
+            -0.16925568782532668
+          ],
+          "sphere_center_mm": [
+            -18.057171384712557,
+            -3.2195135348431125,
+            12.107833377773305
+          ],
+          "sphere_radius_mm": 0.21250000000000005,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        },
+        {
+          "id": "V_D4",
+          "tooth": 26,
+          "radial_fraction": 0.6,
+          "kind": "crown",
+          "side": 0,
+          "diameter_mm": 0.15,
+          "depth_mm": 0.05,
+          "surface_point_mm": [
+            -2.955687524764979,
+            -19.173521096969868,
+            11.498286428881052
+          ],
+          "surface_normal": [
+            -0.054752861539603195,
+            -0.3548193096454238,
+            0.9333302639773179
+          ],
+          "along_tangent": [
+            -0.6439933383631284,
+            -0.7017884152607238,
+            -0.30457445780917874
+          ],
+          "across_tangent": [
+            0.763069265726997,
+            -0.6177347956110185,
+            -0.19007634780338908
+          ],
+          "sphere_center_mm": [
+            -2.9573985516880916,
+            -19.184609200396288,
+            11.527452999630343
+          ],
+          "sphere_radius_mm": 0.08125,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        },
+        {
+          "id": "V_D5",
+          "tooth": 33,
+          "radial_fraction": 0.5,
+          "kind": "flank",
+          "side": 1,
+          "diameter_mm": 0.3,
+          "depth_mm": 0.1,
+          "surface_point_mm": [
+            17.201593190020475,
+            -7.845269589141678,
+            11.626084676666986
+          ],
+          "surface_normal": [
+            0.8467065778716382,
+            0.4591539735989706,
+            0.26882261719798695
+          ],
+          "along_tangent": [
+            0.5220269414785186,
+            -0.7935189356072717,
+            -0.3127548100402069
+          ],
+          "across_tangent": [
+            0.7890061591801562,
+            0.5885458971692893,
+            -0.17630373705901584
+          ],
+          "sphere_center_mm": [
+            17.254512351137453,
+            -7.816572465791742,
+            11.642886090241861
+          ],
+          "sphere_radius_mm": 0.1625,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        }
+      ],
+      "mesh": "gear/model/patchcore_validation/validation_gear/damaged_gear.obj",
+      "mesh_sha256": "162c3f76d7e3ca5a9db0676af5b4fd2bc01fa505c31281fe40d473c03829ea67",
+      "mesh_counts": {
+        "vertices": 209073,
+        "triangles": 371292
+      },
+      "valid_solid": true,
+      "removed_volume_mm3": 0.005135219966177829
+    }
+  ],
+  "source_cad": "gear/model/large_gear.FCStd",
+  "source_sha256": "62569dc1daed39ebeb5d75309593ad7982d4dc996257a2f475ec1b2ba6537933",
+  "config_sha256": "8e0794db55a4f9aba0434ea00a58c768a73bf29909b903c159dd46a53cfac12c",
+  "builder_sha256": "06b82c7be548c19a2d7a6b834ebbbbf648e9baa3d92f0d410fa81ef6ca455d70"
+}

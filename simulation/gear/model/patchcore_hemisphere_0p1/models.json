@@ -1,0 +1,780 @@
+{
+  "gears": [
+    {
+      "id": "validation_gear",
+      "defects": [
+        {
+          "id": "V_D1",
+          "tooth": 5,
+          "radial_fraction": 0.4,
+          "kind": "top_edge",
+          "side": -1,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05,
+          "surface_point_mm": [
+            12.326210922929386,
+            13.058359340184849,
+            12.054974561152045
+          ],
+          "surface_normal": [
+            0.241958403645852,
+            0.2652517869858539,
+            0.9333261061418792
+          ],
+          "along_tangent": [
+            0.8948203786129052,
+            0.31092961065986163,
+            -0.3203424218456926
+          ],
+          "across_tangent": [
+            -0.3751701226433254,
+            0.9126687606770147,
+            -0.16212067221694504
+          ],
+          "sphere_center_mm": [
+            12.326210922929386,
+            13.058359340184849,
+            12.054974561152045
+          ],
+          "sphere_radius_mm": 0.05000000000000001,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        },
+        {
+          "id": "V_D2",
+          "tooth": 12,
+          "radial_fraction": 0.55,
+          "kind": "top_edge",
+          "side": 1,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05,
+          "surface_point_mm": [
+            -9.261985590547212,
+            16.86981652669406,
+            11.559564888465868
+          ],
+          "surface_normal": [
+            -0.1677737357296052,
+            0.3174091310329417,
+            0.9333292115519826
+          ],
+          "along_tangent": [
+            0.07619196700027248,
+            0.948091969021988,
+            -0.30873354602413905
+          ],
+          "across_tangent": [
+            -0.9828767764902995,
+            0.019314808125441174,
+            -0.18324895749530312
+          ],
+          "sphere_center_mm": [
+            -9.261985590547212,
+            16.86981652669406,
+            11.559564888465868
+          ],
+          "sphere_radius_mm": 0.05000000000000001,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        },
+        {
+          "id": "V_D3",
+          "tooth": 19,
+          "radial_fraction": 0.45,
+          "kind": "top_edge",
+          "side": -1,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05,
+          "surface_point_mm": [
+            -17.991104180931426,
+            -3.2065989197373916,
+            11.932834556916667
+          ],
+          "surface_normal": [
+            -0.35235842016603836,
+            -0.06887794723051054,
+            0.9333270445687325
+          ],
+          "along_tangent": [
+            -0.8982576651402577,
+            0.30476224667993507,
+            -0.3166277625467656
+          ],
+          "across_tangent": [
+            -0.26263417666950006,
+            -0.9499346300582527,
+            -0.16925568782532668
+          ],
+          "sphere_center_mm": [
+            -17.991104180931426,
+            -3.2065989197373916,
+            11.932834556916667
+          ],
+          "sphere_radius_mm": 0.05000000000000001,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        },
+        {
+          "id": "V_D4",
+          "tooth": 26,
+          "radial_fraction": 0.6,
+          "kind": "crown",
+          "side": 0,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05,
+          "surface_point_mm": [
+            -2.955687524764979,
+            -19.173521096969868,
+            11.498286428881052
+          ],
+          "surface_normal": [
+            -0.054752861539603195,
+            -0.3548193096454238,
+            0.9333302639773179
+          ],
+          "along_tangent": [
+            -0.6439933383631284,
+            -0.7017884152607238,
+            -0.30457445780917874
+          ],
+          "across_tangent": [
+            0.763069265726997,
+            -0.6177347956110185,
+            -0.19007634780338908
+          ],
+          "sphere_center_mm": [
+            -2.955687524764979,
+            -19.173521096969868,
+            11.498286428881052
+          ],
+          "sphere_radius_mm": 0.05000000000000001,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        },
+        {
+          "id": "V_D5",
+          "tooth": 33,
+          "radial_fraction": 0.5,
+          "kind": "flank",
+          "side": 1,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05,
+          "surface_point_mm": [
+            17.201593190020475,
+            -7.845269589141678,
+            11.626084676666986
+          ],
+          "surface_normal": [
+            0.8467065778716382,
+            0.4591539735989706,
+            0.26882261719798695
+          ],
+          "along_tangent": [
+            0.5220269414785186,
+            -0.7935189356072717,
+            -0.3127548100402069
+          ],
+          "across_tangent": [
+            0.7890061591801562,
+            0.5885458971692893,
+            -0.17630373705901584
+          ],
+          "sphere_center_mm": [
+            17.201593190020475,
+            -7.845269589141678,
+            11.626084676666986
+          ],
+          "sphere_radius_mm": 0.05000000000000001,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        }
+      ],
+      "mesh": "gear/model/patchcore_hemisphere_0p1/validation_gear/damaged_gear.obj",
+      "mesh_sha256": "916e42bd48e5fe2a3f229204d88ef6e06ff2a26bbd96b58f7a4076a5ebf90143",
+      "mesh_counts": {
+        "vertices": 251038,
+        "triangles": 454890
+      },
+      "valid_solid": true,
+      "removed_volume_mm3": 0.0013212594985816395
+    },
+    {
+      "id": "gear_1",
+      "defects": [
+        {
+          "id": "G1_D1",
+          "tooth": 3,
+          "radial_fraction": 0.4,
+          "kind": "top_edge",
+          "side": -1,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05,
+          "surface_point_mm": [
+            16.128607204855324,
+            7.894571172991331,
+            12.054974561152036
+          ],
+          "surface_normal": [
+            0.3197326947269878,
+            0.16331988095959635,
+            0.9333261061418792
+          ],
+          "along_tangent": [
+            0.9470148786637432,
+            -0.023314209305310578,
+            -0.32034242184569267
+          ],
+          "across_tangent": [
+            -0.03055852601344504,
+            0.9862976549337484,
+            -0.1621206722169451
+          ],
+          "sphere_center_mm": [
+            16.128607204855324,
+            7.894571172991331,
+            12.054974561152036
+          ],
+          "sphere_radius_mm": 0.05000000000000001,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        },
+        {
+          "id": "G1_D2",
+          "tooth": 10,
+          "radial_fraction": 0.5,
+          "kind": "top_edge",
+          "side": -1,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05,
+          "surface_point_mm": [
+            -2.255492605234037,
+            18.455013078302027,
+            11.810642085622355
+          ],
+          "surface_normal": [
+            -0.049340936525918956,
+            0.3556178438816107,
+            0.9333281422392339
+          ],
+          "along_tangent": [
+            0.37466661368203624,
+            0.8728169094310386,
+            -0.3127548100402068
+          ],
+          "across_tangent": [
+            -0.9258457758043621,
+            0.33425527927654997,
+            -0.17630373705901578
+          ],
+          "sphere_center_mm": [
+            -2.255492605234037,
+            18.455013078302027,
+            11.810642085622355
+          ],
+          "sphere_radius_mm": 0.05000000000000001,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        },
+        {
+          "id": "G1_D3",
+          "tooth": 17,
+          "radial_fraction": 0.6,
+          "kind": "top_edge",
+          "side": -1,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05,
+          "surface_point_mm": [
+            -18.792143080832403,
+            4.072078734427214,
+            11.566049088918158
+          ],
+          "surface_normal": [
+            -0.3520055523665749,
+            0.07061663718368916,
+            0.9333302639773179
+          ],
+          "along_tangent": [
+            -0.6721891091519563,
+            0.674830498116189,
+            -0.30457445780917886
+          ],
+          "across_tangent": [
+            -0.6513477509292573,
+            -0.7345863389453438,
+            -0.19007634780338908
+          ],
+          "sphere_center_mm": [
+            -18.792143080832403,
+            4.072078734427214,
+            11.566049088918158
+          ],
+          "sphere_radius_mm": 0.05000000000000001,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        },
+        {
+          "id": "G1_D4",
+          "tooth": 24,
+          "radial_fraction": 0.45,
+          "kind": "crown",
+          "side": 0,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05,
+          "surface_point_mm": [
+            -8.508675783088615,
+            -16.342676078851998,
+            11.873372461198684
+          ],
+          "surface_normal": [
+            -0.1658409339799948,
+            -0.3184296036696939,
+            0.9333270445687325
+          ],
+          "along_tangent": [
+            -0.7983272127784488,
+            -0.5122699691783841,
+            -0.31662776254676556
+          ],
+          "across_tangent": [
+            0.5789390692931654,
+            -0.7976102219660549,
+            -0.16925568782532646
+          ],
+          "sphere_center_mm": [
+            -8.508675783088615,
+            -16.342676078851998,
+            11.873372461198684
+          ],
+          "sphere_radius_mm": 0.05000000000000001,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        },
+        {
+          "id": "G1_D5",
+          "tooth": 31,
+          "radial_fraction": 0.55,
+          "kind": "flank",
+          "side": 1,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05,
+          "surface_point_mm": [
+            13.43096756944975,
+            -13.77478063640245,
+            11.498336128890207
+          ],
+          "surface_normal": [
+            0.9579548515796465,
+            0.1005519457707269,
+            0.2687225493640947
+          ],
+          "along_tangent": [
+            0.1787811702740806,
+            -0.9341953172194727,
+            -0.30873354602413894
+          ],
+          "across_tangent": [
+            0.952595159803526,
+            0.24286267950382912,
+            -0.1832489574953029
+          ],
+          "sphere_center_mm": [
+            13.43096756944975,
+            -13.77478063640245,
+            11.498336128890207
+          ],
+          "sphere_radius_mm": 0.05000000000000001,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        }
+      ],
+      "mesh": "gear/model/patchcore_hemisphere_0p1/gear_1/damaged_gear.obj",
+      "mesh_sha256": "aea4344e7e3f57a97015dd5c04075354c5b59f32c5039c6dce763f3cf6b2c7e7",
+      "mesh_counts": {
+        "vertices": 248349,
+        "triangles": 449498
+      },
+      "valid_solid": true,
+      "removed_volume_mm3": 0.0016738840668040211
+    },
+    {
+      "id": "gear_2",
+      "defects": [
+        {
+          "id": "G2_D1",
+          "tooth": 4,
+          "radial_fraction": 0.35,
+          "kind": "top_edge",
+          "side": 1,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05,
+          "surface_point_mm": [
+            13.945170569608141,
+            11.248551010760922,
+            12.07061223879332
+          ],
+          "surface_normal": [
+            0.2833387339063994,
+            0.22050655441332698,
+            0.9333252494865234
+          ],
+          "along_tangent": [
+            0.9294662562868239,
+            0.17659963495734401,
+            -0.32389048667271675
+          ],
+          "across_tangent": [
+            -0.2362448735792484,
+            0.9592650459563797,
+            -0.15491588464011566
+          ],
+          "sphere_center_mm": [
+            13.945170569608141,
+            11.248551010760922,
+            12.07061223879332
+          ],
+          "sphere_radius_mm": 0.05000000000000001,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        },
+        {
+          "id": "G2_D2",
+          "tooth": 11,
+          "radial_fraction": 0.45,
+          "kind": "top_edge",
+          "side": -1,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05,
+          "surface_point_mm": [
+            -5.59258310547119,
+            17.397848156872378,
+            11.93283455691667
+          ],
+          "surface_normal": [
+            -0.11555280687637588,
+            0.339923780720894,
+            0.9333270445687324
+          ],
+          "along_tangent": [
+            0.1814280158058236,
+            0.9310374509467333,
+            -0.3166277625467656
+          ],
+          "across_tangent": [
+            -0.9765917386010148,
+            0.1327444470967532,
+            -0.16925568782532682
+          ],
+          "sphere_center_mm": [
+            -5.59258310547119,
+            17.397848156872378,
+            11.93283455691667
+          ],
+          "sphere_radius_mm": 0.05000000000000001,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        },
+        {
+          "id": "G2_D3",
+          "tooth": 18,
+          "radial_fraction": 0.55,
+          "kind": "top_edge",
+          "side": 1,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05,
+          "surface_point_mm": [
+            -19.24444978028653,
+            -0.1619857334879497,
+            11.55956488846586
+          ],
+          "surface_normal": [
+            -0.3590117783064245,
+            0.0026694383328937613,
+            0.9333292115519827
+          ],
+          "along_tangent": [
+            -0.7987805662164134,
+            0.5163653789656573,
+            -0.308733546024139
+          ],
+          "across_tangent": [
+            -0.48276303718516467,
+            -0.8563642154507859,
+            -0.18324895749530273
+          ],
+          "sphere_center_mm": [
+            -19.24444978028653,
+            -0.1619857334879497,
+            11.55956488846586
+          ],
+          "sphere_radius_mm": 0.05000000000000001,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        },
+        {
+          "id": "G2_D4",
+          "tooth": 25,
+          "radial_fraction": 0.65,
+          "kind": "crown",
+          "side": 0,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05,
+          "surface_point_mm": [
+            -6.649736446739665,
+            -18.570315834387475,
+            11.37325762110357
+          ],
+          "surface_normal": [
+            -0.12108670565836621,
+            -0.33797969981502407,
+            0.9333315232144206
+          ],
+          "along_tangent": [
+            -0.7792685326392602,
+            -0.5500613062432048,
+            -0.30028838374514805
+          ],
+          "across_tangent": [
+            0.6148809346134083,
+            -0.7636768176964425,
+            -0.19677183325358413
+          ],
+          "sphere_center_mm": [
+            -6.649736446739665,
+            -18.570315834387475,
+            11.37325762110357
+          ],
+          "sphere_radius_mm": 0.05000000000000001,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        },
+        {
+          "id": "G2_D5",
+          "tooth": 32,
+          "radial_fraction": 0.5,
+          "kind": "flank",
+          "side": -1,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05,
+          "surface_point_mm": [
+            14.871760566632451,
+            -11.114008923282894,
+            11.753409885763649
+          ],
+          "surface_normal": [
+            -0.8332583125130176,
+            -0.46090561905764516,
+            0.305363054328855
+          ],
+          "along_tangent": [
+            0.3719494766604059,
+            -0.8739782695289193,
+            -0.31275481004020683
+          ],
+          "across_tangent": [
+            0.8814154334489419,
+            0.43820523271298256,
+            -0.17630373705901606
+          ],
+          "sphere_center_mm": [
+            14.871760566632451,
+            -11.114008923282894,
+            11.753409885763649
+          ],
+          "sphere_radius_mm": 0.05000000000000001,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        }
+      ],
+      "mesh": "gear/model/patchcore_hemisphere_0p1/gear_2/damaged_gear.obj",
+      "mesh_sha256": "f06bcdd4b91278ac75aba1d28f9ae99b2afe03a4ba1d4a551519357f8c9aba0f",
+      "mesh_counts": {
+        "vertices": 254025,
+        "triangles": 460728
+      },
+      "valid_solid": true,
+      "removed_volume_mm3": 0.0011126466970381443
+    },
+    {
+      "id": "gear_3",
+      "defects": [
+        {
+          "id": "G3_D1",
+          "tooth": 1,
+          "radial_fraction": 0.6,
+          "kind": "top_edge",
+          "side": -1,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05,
+          "surface_point_mm": [
+            19.19825098421115,
+            1.07406980084508,
+            11.566049088918161
+          ],
+          "surface_normal": [
+            0.3581069066409826,
+            0.025574631181248794,
+            0.9333302639773178
+          ],
+          "along_tangent": [
+            0.8274951135977361,
+            -0.47168446722582935,
+            -0.3045744578091789
+          ],
+          "across_tangent": [
+            0.4324480088841852,
+            0.8813964497420151,
+            -0.1900763478033894
+          ],
+          "sphere_center_mm": [
+            19.19825098421115,
+            1.07406980084508,
+            11.566049088918161
+          ],
+          "sphere_radius_mm": 0.05000000000000001,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        },
+        {
+          "id": "G3_D2",
+          "tooth": 8,
+          "radial_fraction": 0.4,
+          "kind": "top_edge",
+          "side": 1,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05,
+          "surface_point_mm": [
+            3.3368895023952607,
+            17.941130253258184,
+            11.942766220266405
+          ],
+          "surface_normal": [
+            0.07166144983594486,
+            0.3518053669309896,
+            0.933326106141879
+          ],
+          "along_tangent": [
+            0.6086819018790709,
+            0.7258698747646947,
+            -0.32034242184569256
+          ],
+          "across_tangent": [
+            -0.7901714870408116,
+            0.5910549117532468,
+            -0.16212067221694543
+          ],
+          "sphere_center_mm": [
+            3.3368895023952607,
+            17.941130253258184,
+            11.942766220266405
+          ],
+          "sphere_radius_mm": 0.05000000000000001,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        },
+        {
+          "id": "G3_D3",
+          "tooth": 15,
+          "radial_fraction": 0.5,
+          "kind": "top_edge",
+          "side": -1,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05,
+          "surface_point_mm": [
+            -15.834986871506963,
+            9.743097320245058,
+            11.810642085622352
+          ],
+          "surface_normal": [
+            -0.3087967968121138,
+            0.1831478014687553,
+            0.9333281422392339
+          ],
+          "along_tangent": [
+            -0.4487949254959375,
+            0.8371185959264136,
+            -0.3127548100402068
+          ],
+          "across_tangent": [
+            -0.8385866998275575,
+            -0.5154506175875158,
+            -0.17630373705901595
+          ],
+          "sphere_center_mm": [
+            -15.834986871506963,
+            9.743097320245058,
+            11.810642085622352
+          ],
+          "sphere_radius_mm": 0.05000000000000001,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        },
+        {
+          "id": "G3_D4",
+          "tooth": 22,
+          "radial_fraction": 0.55,
+          "kind": "crown",
+          "side": 0,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05,
+          "surface_point_mm": [
+            -14.455937101542263,
+            -12.445139915495279,
+            11.62331515765225
+          ],
+          "surface_normal": [
+            -0.27211785305750136,
+            -0.23419747417752107,
+            0.9333292115519827
+          ],
+          "along_tangent": [
+            -0.9412756315718303,
+            -0.13668863511065127,
+            -0.30873354602413905
+          ],
+          "across_tangent": [
+            0.19988011270866363,
+            -0.9625319527789489,
+            -0.18324895749530293
+          ],
+          "sphere_center_mm": [
+            -14.455937101542263,
+            -12.445139915495279,
+            11.62331515765225
+          ],
+          "sphere_radius_mm": 0.05000000000000001,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        },
+        {
+          "id": "G3_D5",
+          "tooth": 29,
+          "radial_fraction": 0.45,
+          "kind": "flank",
+          "side": 1,
+          "diameter_mm": 0.1,
+          "depth_mm": 0.05,
+          "surface_point_mm": [
+            7.8360815141203615,
+            -16.83925766905622,
+            11.753901887471711
+          ],
+          "surface_normal": [
+            0.946252391969474,
+            -0.18002450835070458,
+            0.2686960868437353
+          ],
+          "along_tangent": [
+            -0.09724008628708208,
+            -0.9435524498423551,
+            -0.3166277625467656
+          ],
+          "across_tangent": [
+            0.9845593878732503,
+            -0.04466904844997915,
+            -0.16925568782532627
+          ],
+          "sphere_center_mm": [
+            7.8360815141203615,
+            -16.83925766905622,
+            11.753901887471711
+          ],
+          "sphere_radius_mm": 0.05000000000000001,
+          "footprint_definition": "Nominal spherical-cap diameter on the local tangent plane; tooth boundaries crop the cap"
+        }
+      ],
+      "mesh": "gear/model/patchcore_hemisphere_0p1/gear_3/damaged_gear.obj",
+      "mesh_sha256": "8668f7b6e0dcd3c5d5df73662842894f21f67084b36c76d9f5203bb4132fbb9e",
+      "mesh_counts": {
+        "vertices": 250250,
+        "triangles": 453296
+      },
+      "valid_solid": true,
+      "removed_volume_mm3": 0.0011144087247885182
+    }
+  ],
+  "source_cad": "gear/model/large_gear.FCStd",
+  "source_sha256": "62569dc1daed39ebeb5d75309593ad7982d4dc996257a2f475ec1b2ba6537933",
+  "config_sha256": "820f49c3c7bd054490623dd128b50fd40c202357ef7f8e89aceb3fcacba8a5c7",
+  "builder_sha256": "7c1d7755fa82864e3d07cabb07d49b98f040e7c48f6fa19b129b8b532a8c1445"
+}

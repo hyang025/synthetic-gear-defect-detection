@@ -1,0 +1,154 @@
+[
+  {
+    "setting": "no averaging, single frame",
+    "TP": 40,
+    "FN": 0,
+    "FP": 4,
+    "TN": 14,
+    "F1": 0.952,
+    "missed": [],
+    "accuracy": 0.931,
+    "detection_rate": 1.0,
+    "false_alarms_per_tooth": 0.222,
+    "precision": 0.909
+  },
+  {
+    "setting": "no averaging, 2 in a row",
+    "TP": 39,
+    "FN": 1,
+    "FP": 4,
+    "TN": 14,
+    "F1": 0.94,
+    "missed": [
+      "G3_D3"
+    ],
+    "accuracy": 0.914,
+    "detection_rate": 0.975,
+    "false_alarms_per_tooth": 0.222,
+    "precision": 0.907
+  },
+  {
+    "setting": "score mean of 2, single frame",
+    "TP": 40,
+    "FN": 0,
+    "FP": 2,
+    "TN": 16,
+    "F1": 0.976,
+    "missed": [],
+    "accuracy": 0.966,
+    "detection_rate": 1.0,
+    "false_alarms_per_tooth": 0.111,
+    "precision": 0.952
+  },
+  {
+    "setting": "score mean of 2, 2 in a row",
+    "TP": 39,
+    "FN": 1,
+    "FP": 2,
+    "TN": 16,
+    "F1": 0.963,
+    "missed": [
+      "G2_D5"
+    ],
+    "accuracy": 0.948,
+    "detection_rate": 0.975,
+    "false_alarms_per_tooth": 0.111,
+    "precision": 0.951
+  },
+  {
+    "setting": "score mean of 3, single frame",
+    "TP": 38,
+    "FN": 2,
+    "FP": 2,
+    "TN": 16,
+    "F1": 0.95,
+    "missed": [
+      "G2_D5",
+      "G3_D3"
+    ],
+    "accuracy": 0.931,
+    "detection_rate": 0.95,
+    "false_alarms_per_tooth": 0.111,
+    "precision": 0.95
+  },
+  {
+    "setting": "score mean of 3, 2 in a row",
+    "TP": 37,
+    "FN": 3,
+    "FP": 1,
+    "TN": 17,
+    "F1": 0.949,
+    "missed": [
+      "G2_D2",
+      "G2_D5",
+      "G3_D3"
+    ],
+    "accuracy": 0.931,
+    "detection_rate": 0.925,
+    "false_alarms_per_tooth": 0.056,
+    "precision": 0.974
+  },
+  {
+    "setting": "vector mean of 2, single frame",
+    "TP": 39,
+    "FN": 1,
+    "FP": 0,
+    "TN": 18,
+    "F1": 0.987,
+    "missed": [
+      "G3_D3"
+    ],
+    "accuracy": 0.983,
+    "detection_rate": 0.975,
+    "false_alarms_per_tooth": 0.0,
+    "precision": 1.0
+  },
+  {
+    "setting": "vector mean of 2, 2 in a row",
+    "TP": 37,
+    "FN": 3,
+    "FP": 0,
+    "TN": 18,
+    "F1": 0.961,
+    "missed": [
+      "G2_D5",
+      "G3_D3",
+      "T3_D2"
+    ],
+    "accuracy": 0.948,
+    "detection_rate": 0.925,
+    "false_alarms_per_tooth": 0.0,
+    "precision": 1.0
+  },
+  {
+    "setting": "vector mean of 3, single frame",
+    "TP": 38,
+    "FN": 2,
+    "FP": 1,
+    "TN": 17,
+    "F1": 0.962,
+    "missed": [
+      "G2_D5",
+      "G3_D3"
+    ],
+    "accuracy": 0.948,
+    "detection_rate": 0.95,
+    "false_alarms_per_tooth": 0.056,
+    "precision": 0.974
+  },
+  {
+    "setting": "vector mean of 3, 2 in a row",
+    "TP": 39,
+    "FN": 1,
+    "FP": 1,
+    "TN": 17,
+    "F1": 0.975,
+    "missed": [
+      "G3_D3"
+    ],
+    "accuracy": 0.966,
+    "detection_rate": 0.975,
+    "false_alarms_per_tooth": 0.056,
+    "precision": 0.975
+  }
+]

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -euo pipefail
+mitsuba_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+exec "$mitsuba_dir/.tools/blender-4.5.14-linux-x64/blender" "$@"
